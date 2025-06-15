@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,133 +7,142 @@
   <title>Prosthetic Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Amiri&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
+<body dir="rtl">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm w-75 mx-auto" style="border-radius: 0px 0px 20px 20px">
-    <div class="container">
-      <a class="btn d-inline-flex align-items-center justify-content-center fw-medium login" href="#" style="
-            width: 168px;
-            height: 48px;
-            padding: 12px 32px;
-            background-color: rgba(137, 122, 227, 1);
-            border-radius: 8px;
-            color: white;
-            font-size: 16px;
-            transition: all 0.3s ease;
-          ">تسجيل الدخول</a>
-      <svg style="margin: 0px 5px 0px 16px !important;" width="24" height="24" viewBox="0 0 24 24" fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M2 1.75H3.74023C4.32535 1.75006 4.8803 1.99821 5.27734 2.4248H5.27832C5.50044 2.67166 5.66122 2.95434 5.74902 3.26562L5.85156 3.62988H18.7197C19.5392 3.62988 20.2919 3.93289 20.8643 4.48047L20.9766 4.59375C21.5152 5.18333 21.8028 5.9333 21.7803 6.73828L21.7715 6.90039V6.9043L21.2314 14.4043L21.2305 14.4102C21.1365 15.9712 19.7605 17.2498 18.1904 17.25H7.54004C6.69104 17.25 5.87474 16.8891 5.29883 16.2617C4.72254 15.6338 4.42969 14.7913 4.49805 13.9414L5.32715 3.9873L5.32812 3.98828C5.37284 3.52625 5.2067 3.08855 4.90918 2.7627C4.59894 2.42298 4.17218 2.25012 3.73047 2.25H2C1.86614 2.25 1.75 2.13386 1.75 2C1.75 1.86614 1.86614 1.75 2 1.75ZM5.78027 4.58789L5.00195 13.9766C4.9398 14.6976 5.17757 15.3849 5.65918 15.916C6.14759 16.4545 6.82446 16.7402 7.54004 16.7402H18.1904C19.4136 16.74 20.5041 15.7864 20.7178 14.5986L20.748 14.3584L20.749 14.3555L21.2891 6.85547V6.85352C21.3377 6.13481 21.106 5.43406 20.6123 4.91504H20.6113C20.1235 4.39257 19.4515 4.11047 18.7305 4.11035H5.78027V4.58789Z"
-          fill="#101840" stroke="#101840" />
-        <path
-          d="M16.25 22.75C15.15 22.75 14.25 21.85 14.25 20.75C14.25 19.65 15.15 18.75 16.25 18.75C17.35 18.75 18.25 19.65 18.25 20.75C18.25 21.85 17.35 22.75 16.25 22.75ZM16.25 20.25C15.97 20.25 15.75 20.47 15.75 20.75C15.75 21.03 15.97 21.25 16.25 21.25C16.53 21.25 16.75 21.03 16.75 20.75C16.75 20.47 16.53 20.25 16.25 20.25Z"
-          fill="#101840" />
-        <path
-          d="M8.25 22.75C7.15 22.75 6.25 21.85 6.25 20.75C6.25 19.65 7.15 18.75 8.25 18.75C9.35 18.75 10.25 19.65 10.25 20.75C10.25 21.85 9.35 22.75 8.25 22.75ZM8.25 20.25C7.97 20.25 7.75 20.47 7.75 20.75C7.75 21.03 7.97 21.25 8.25 21.25C8.53 21.25 8.75 21.03 8.75 20.75C8.75 20.47 8.53 20.25 8.25 20.25Z"
-          fill="#101840" />
-        <path
-          d="M21 8.75H9C8.59 8.75 8.25 8.41 8.25 8C8.25 7.59 8.59 7.25 9 7.25H21C21.41 7.25 21.75 7.59 21.75 8C21.75 8.41 21.41 8.75 21 8.75Z"
-          fill="#101840" />
-      </svg>
+  <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm rounded-bottom w-75">
+    <div class="container-fluid">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <img src="images/logo.png" alt="Logo" class="logo ms-3" loading="lazy" style="width: 100px; height: 50px;">
+
+      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-start ms-3" id="navbarNav">
-        <ul class="navbar-nav gap-4 align-items-center">
-          <li class="nav-item">
-            <a class="nav-link fw-medium" href="#contact">المركز الاعلامي</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium" href="#articles">المقالات</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium" href="#who-we-are">من نحن</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium" href="#services">العناية بالاطراف الصناعية</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-medium" href="#programs">البرامج</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active fw-medium" href="#hero">عن بتور</a>
-          </li>
-        </ul>
-        <img src="images/logo.png" alt="Logo" class="ms-auto logo" loading="lazy" />
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item"><a class="nav-link fw-medium" href="#contact">المركز الإعلامي</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#articles">المقالات</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#who-we-are">من نحن</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#services">العناية بالأطراف الصناعية</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#programs">البرامج</a></li>
+            <li class="nav-item"><a class="nav-link active fw-medium" href="#hero">عن بتور</a></li>
+          </ul>
+
+          <div class="d-flex justify-content-center align-items-center gap-3 mt-3 mt-lg-0">
+
+            <svg class="cart-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M2 1.75H3.74023C4.32535 1.75006 4.8803 1.99821 5.27734 2.4248H5.27832C5.50044 2.67166 5.66122 2.95434 5.74902 3.26562L5.85156 3.62988H18.7197C19.5392 3.62988 20.2919 3.93289 20.8643 4.48047L20.9766 4.59375C21.5152 5.18333 21.8028 5.9333 21.7803 6.73828L21.7715 6.90039V6.9043L21.2314 14.4043L21.2305 14.4102C21.1365 15.9712 19.7605 17.2498 18.1904 17.25H7.54004C6.69104 17.25 5.87474 16.8891 5.29883 16.2617C4.72254 15.6338 4.42969 14.7913 4.49805 13.9414L5.32715 3.9873L5.32812 3.98828C5.37284 3.52625 5.2067 3.08855 4.90918 2.7627C4.59894 2.42298 4.17218 2.25012 3.73047 2.25H2C1.86614 2.25 1.75 2.13386 1.75 2C1.75 1.86614 1.86614 1.75 2 1.75ZM5.78027 4.58789L5.00195 13.9766C4.9398 14.6976 5.17757 15.3849 5.65918 15.916C6.14759 16.4545 6.82446 16.7402 7.54004 16.7402H18.1904C19.4136 16.74 20.5041 15.7864 20.7178 14.5986L20.748 14.3584L20.749 14.3555L21.2891 6.85547V6.85352C21.3377 6.13481 21.106 5.43406 20.6123 4.91504H20.6113C20.1235 4.39257 19.4515 4.11047 18.7305 4.11035H5.78027V4.58789Z"
+                fill="#101840" stroke="#101840" />
+              <path
+                d="M16.25 22.75C15.15 22.75 14.25 21.85 14.25 20.75C14.25 19.65 15.15 18.75 16.25 18.75C17.35 18.75 18.25 19.65 18.25 20.75C18.25 21.85 17.35 22.75 16.25 22.75ZM16.25 20.25C15.97 20.25 15.75 20.47 15.75 20.75C15.75 21.03 15.97 21.25 16.25 21.25C16.53 21.25 16.75 21.03 16.75 20.75C16.75 20.47 16.53 20.25 16.25 20.25Z"
+                fill="#101840" />
+              <path
+                d="M8.25 22.75C7.15 22.75 6.25 21.85 6.25 20.75C6.25 19.65 7.15 18.75 8.25 18.75C9.35 18.75 10.25 19.65 10.25 20.75C10.25 21.85 9.35 22.75 8.25 22.75ZM8.25 20.25C7.97 20.25 7.75 20.47 7.75 20.75C7.75 21.03 7.97 21.25 8.25 21.25C8.53 21.25 8.75 21.03 8.75 20.75C8.75 20.47 8.53 20.25 8.25 20.25Z"
+                fill="#101840" />
+              <path
+                d="M21 8.75H9C8.59 8.75 8.25 8.41 8.25 8C8.25 7.59 8.59 7.25 9 7.25H21C21.41 7.25 21.75 7.59 21.75 8C21.75 8.41 21.41 8.75 21 8.75Z"
+                fill="#101840" />
+            </svg>
+
+
+            <a href="#" class="btn btn-primary d-flex align-items-center justify-content-center fw-medium"
+              style="width: 168px; height: 48px;">
+              تسجيل الدخول
+            </a>
+          </div>
+
+        </div>
       </div>
-    </div>
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 order-1 text-center text-md-start p-0 m-0 position-relative">
-          <img src="images/hero-bg.png" alt="Hero image" class="hero-image img-fluid" loading="lazy" />
-          <div class="quick-donate-button">
-            <button class="btn">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M12 1.75C17.6539 1.75 22.25 6.34614 22.25 12C22.25 17.6539 17.6539 22.25 12 22.25C6.34614 22.25 1.75 17.6539 1.75 12C1.75 6.34614 6.34614 1.75 12 1.75ZM12 2.25C6.62386 2.25 2.25 6.62386 2.25 12C2.25 17.3761 6.62386 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62386 17.3761 2.25 12 2.25Z"
-                  fill="white" stroke="white" />
-                <path
-                  d="M16 12.75H8C7.59 12.75 7.25 12.41 7.25 12C7.25 11.59 7.59 11.25 8 11.25H16C16.41 11.25 16.75 11.59 16.75 12C16.75 12.41 16.41 12.75 16 12.75Z"
-                  fill="white" />
-                <path
-                  d="M12 16.75C11.59 16.75 11.25 16.41 11.25 16V8C11.25 7.59 11.59 7.25 12 7.25C12.41 7.25 12.75 7.59 12.75 8V16C12.75 16.41 12.41 16.75 12 16.75Z"
-                  fill="white" />
-              </svg>
-              <span>التبرع السريع</span>
+  <section id="hero" class="py-5 overflow-hidden">
+    <div class="container-fluid">
+      <div class="row align-items-center flex-row-reverse">
+
+        <div class="col-md-6 text-center text-md-start position-relative">
+          <img src="images/hero-bg.png" alt="Hero image" class="img-fluid mb-3 mb-md-0" loading="lazy" />
+
+          <div
+            class="donate-btn position-absolute position-md-absolute w-100 w-md-auto d-flex justify-content-center justify-content-md-start"
+            dir="ltr">
+            <button
+              class="btn d-flex align-items-center p-0 overflow-hidden rounded-3 border-0 shadow bg-primary-custom-custom min-w-200">
+              <div class="d-flex align-items-center justify-content-center px-3 py-2 bg-primary-custom ">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 1.75C17.6539 1.75 22.25 6.34614 22.25 12C22.25 17.6539 17.6539 22.25 12 22.25C6.34614 22.25 1.75 17.6539 1.75 12C1.75 6.34614 6.34614 1.75 12 1.75ZM12 2.25C6.62386 2.25 2.25 6.62386 2.25 12C2.25 17.3761 6.62386 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62386 17.3761 2.25 12 2.25Z"
+                    fill="white" stroke="white" />
+                  <path
+                    d="M16 12.75H8C7.59 12.75 7.25 12.41 7.25 12C7.25 11.59 7.59 11.25 8 11.25H16C16.41 11.25 16.75 11.59 16.75 12C16.75 12.41 16.41 12.75 16 12.75Z"
+                    fill="white" />
+                  <path
+                    d="M12 16.75C11.59 16.75 11.25 16.41 11.25 16V8C11.25 7.59 11.59 7.25 12 7.25C12.41 7.25 12.75 7.59 12.75 8V16C12.75 16.41 12.41 16.75 12 16.75Z"
+                    fill="white" />
+                </svg>
+              </div>
+              <span class="bg-white fw-bold px-3 py-2 flex-grow-1 text-center text-primary-custom">
+                التبرع السريع
+              </span>
             </button>
           </div>
         </div>
-        <div class="col-md-6 order-2 text-end mb-4 mb-md-0">
-          <h1 class="hero-title">
+
+        <div class="col-md-6 pe-5" dir="rtl">
+          <h1 class="text-dark fw-bold">
             تقديم الرعاية الصحية لمستخدمي الاطراف الصناعية من الأطفال والشباب
           </h1>
-          <p class="hero-description">
+          <p class="text-muted">
             من خلال مبادرات الرعاية الصحية الخيرية لدينا، نقدم الخدمات الطبية
             الأساسية والعلاجات والدعم للأطفال والشباب مبتوري الاطراف، ورعاية
             رفاههم وتمكينهم من الازدهار.
           </p>
-          <button class="btn mt-3 quick-donation">
-            <span>+966 675 656</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M19.51 5.85L13.57 2.42C12.6 1.86 11.4 1.86 10.42 2.42L4.49004 5.85C3.52004 6.41 2.92004 7.45 2.92004 8.58V15.42C2.92004 16.54 3.52004 17.58 4.49004 18.15L10.43 21.58C11.4 22.14 12.6 22.14 13.58 21.58L19.52 18.15C20.49 17.59 21.09 16.55 21.09 15.42V8.58C21.08 7.45 20.48 6.42 19.51 5.85ZM11.25 7.75C11.25 7.34 11.59 7 12 7C12.41 7 12.75 7.34 12.75 7.75V13C12.75 13.41 12.41 13.75 12 13.75C11.59 13.75 11.25 13.41 11.25 13V7.75ZM12.92 16.63C12.87 16.75 12.8 16.86 12.71 16.96C12.52 17.15 12.27 17.25 12 17.25C11.87 17.25 11.74 17.22 11.62 17.17C11.49 17.12 11.39 17.05 11.29 16.96C11.2 16.86 11.13 16.75 11.07 16.63C11.02 16.51 11 16.38 11 16.25C11 15.99 11.1 15.73 11.29 15.54C11.39 15.45 11.49 15.38 11.62 15.33C11.99 15.17 12.43 15.26 12.71 15.54C12.8 15.64 12.87 15.74 12.92 15.87C12.97 15.99 13 16.12 13 16.25C13 16.38 12.97 16.51 12.92 16.63Z"
-                fill="#897AE3" />
-            </svg>
-          </button>
-          <button class="btn mt-3 donate-now" style="background-color: rgba(137, 122, 227, 1); color: #fff">
-            التبرع الان
-          </button>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <button class="btn btn-light text-primary border-0">
+              +966 675 656
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#897AE3" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.51 3.85L11.57 0.42C10.6 -0.14 9.40004 -0.14 8.42004 0.42L2.49004 3.85C1.52004 4.41 0.920044 5.45 0.920044 6.58V13.42C0.920044 14.54 1.52004 15.58 2.49004 16.15L8.43004 19.58C9.40004 20.14 10.6 20.14 11.58 19.58L17.52 16.15C18.49 15.59 19.09 14.55 19.09 13.42V6.58C19.08 5.45 18.48 4.42 17.51 3.85ZM9.25004 5.75C9.25004 5.34 9.59004 5 10 5C10.41 5 10.75 5.34 10.75 5.75V11C10.75 11.41 10.41 11.75 10 11.75C9.59004 11.75 9.25004 11.41 9.25004 11V5.75ZM10.92 14.63C10.87 14.75 10.8 14.86 10.71 14.96C10.52 15.15 10.27 15.25 10 15.25C9.87004 15.25 9.74004 15.22 9.62004 15.17C9.49004 15.12 9.39004 15.05 9.29004 14.96C9.20004 14.86 9.13004 14.75 9.07004 14.63C9.02004 14.51 9.00004 14.38 9.00004 14.25C9.00004 13.99 9.10004 13.73 9.29004 13.54C9.39004 13.45 9.49004 13.38 9.62004 13.33C9.99004 13.17 10.43 13.26 10.71 13.54C10.8 13.64 10.87 13.74 10.92 13.87C10.97 13.99 11 14.12 11 14.25C11 14.38 10.97 14.51 10.92 14.63Z"
+                  fill="#897AE3" />
+              </svg>
+            </button>
+            <button class="btn text-white bg-primary-custom">
+              التبرع الان
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Home Section -->
-  <section id="services" class="home-section">
+  <section id="services" class="home-section py-5 bg-white">
     <div class="container">
-      <h3 class="text-center home-title">
-        تعزيز صحة الأطفال والشباب مبتوري الاطراف وسعادتهم
+      <h3 class="text-center text-primary fw-normal amiri-font">
+        تعزيز صحة الأطفال والشباب مبتوري الأطراف وسعادتهم
       </h3>
-      <p class="text-center home-description">
-        تحسين صحة مبتوري الاطراف <br />
-        من خلال تزويدهم بالاطراف الصناعية
+
+      <p class="text-center fw-bold text-dark fs-2 mt-3 almarai-font">
+        تحسين صحة مبتوري الأطراف <br> من خلال تزويدهم بالأطراف الصناعية
       </p>
 
-      <div class="row justify-content-center mt-5 gap-4">
-        <div class="col-md-3">
-          <div class="card text-center p-4 h-100">
-            <div class="card-icon mb-3">
+      <div class="row justify-content-center mt-5 g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4 col-lg-3">
+          <div class="card card-hover text-center p-4 shadow-sm h-100 border-1 rounded-4">
+            <div
+              class="card-icon bg-primary-custom text-white rounded-circle mx-auto mb-3 d-flex justify-content-center align-items-center">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16 30.3333C8.09329 30.3333 1.66663 23.9066 1.66663 16C1.66663 8.09329 8.09329 1.66663 16 1.66663C23.9066 1.66663 30.3333 8.09329 30.3333 16C30.3333 23.9066 23.9066 30.3333 16 30.3333ZM16 3.66663C9.19996 3.66663 3.66663 9.19996 3.66663 16C3.66663 22.8 9.19996 28.3333 16 28.3333C22.8 28.3333 28.3333 22.8 28.3333 16C28.3333 9.19996 22.8 3.66663 16 3.66663Z"
@@ -152,17 +161,18 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="card-title">الصحة النفسية</h4>
-            <p class="card-text">
-              دعم الصحة النفسية من خلال خدمات استشارية شاملة لمبتوري الاطراف،
-              ومصادر تعليمية.
+            <h4 class="card-title fw-bold text-dark">الصحة النفسية</h4>
+            <p class="card-text text-muted small">
+              دعم الصحة النفسية من خلال خدمات استشارية شاملة لمبتوري الأطراف، ومصادر تعليمية.
             </p>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="card text-center p-4 h-100">
-            <div class="card-icon mb-3">
+        <!-- Card 2 -->
+        <div class="col-md-4 col-lg-3">
+          <div class="card card-hover text-center p-4 shadow-sm h-100 border-1 rounded-4">
+            <div
+              class="card-icon bg-primary-custom text-white rounded-circle mx-auto mb-3 d-flex justify-content-center align-items-center">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16 30.3333C8.09329 30.3333 1.66663 23.9066 1.66663 16C1.66663 8.09329 8.09329 1.66663 16 1.66663C23.9066 1.66663 30.3333 8.09329 30.3333 16C30.3333 23.9066 23.9066 30.3333 16 30.3333ZM16 3.66663C9.19996 3.66663 3.66663 9.19996 3.66663 16C3.66663 22.8 9.19996 28.3333 16 28.3333C22.8 28.3333 28.3333 22.8 28.3333 16C28.3333 9.19996 22.8 3.66663 16 3.66663Z"
@@ -181,17 +191,18 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="card-title">الدعم المالي</h4>
-            <p class="card-text">
-              التمويل لضمان حصول مبتوري الاطراف علي الاطراف الصناعية من أجل
-              النمو والتطور الصحي.
+            <h4 class="card-title fw-bold fs-5 text-dark">الدعم المالي</h4>
+            <p class="card-text text-muted small">
+              التمويل لضمان حصول مبتوري الأطراف على الأطراف الصناعية من أجل النمو والتطور الصحي.
             </p>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="card text-center p-4 h-100">
-            <div class="card-icon mb-3">
+        <!-- Card 3 -->
+        <div class="col-md-4 col-lg-3">
+          <div class="card card-hover text-center p-4 shadow-sm h-100 border-1 rounded-4">
+            <div
+              class="card-icon bg-primary-custom text-white rounded-circle mx-auto mb-3 d-flex justify-content-center align-items-center">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16 30.3333C8.09329 30.3333 1.66663 23.9066 1.66663 16C1.66663 8.09329 8.09329 1.66663 16 1.66663C23.9066 1.66663 30.3333 8.09329 30.3333 16C30.3333 23.9066 23.9066 30.3333 16 30.3333ZM16 3.66663C9.19996 3.66663 3.66663 9.19996 3.66663 16C3.66663 22.8 9.19996 28.3333 16 28.3333C22.8 28.3333 28.3333 22.8 28.3333 16C28.3333 9.19996 22.8 3.66663 16 3.66663Z"
@@ -210,221 +221,210 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="card-title">الرعاية الأولية</h4>
-            <p class="card-text">
-              تقديم رعاية طبية حيوية مصممة خصيصًا لتلبية الاحتياجات الفريدة
-              لمبتوري الاطراف، وضمان صحتهم ورفاههم بشكل عام.
+            <h4 class="card-title fw-bold fs-5 text-dark">الرعاية الأولية</h4>
+            <p class="card-text text-muted small">
+              تقديم رعاية طبية حيوية مصممة خصيصًا لتلبية الاحتياجات الفريدة لمبتوري الأطراف، وضمان صحتهم ورفاههم بشكل
+              عام.
             </p>
           </div>
         </div>
       </div>
-      <h4 class="text-center mt-5 partners-title">
+
+      <h4 class="text-center mt-5 fw-light text-muted fs-5">
         تعزيز الوحدة والتعاون مع شركائنا المتفانين
       </h4>
-      <div class="row justify-content-center align-items-center mt-4 gap-4">
-        <div class="col-6 col-md-2">
-          <img src="images/amity.png" alt="American Red Cross" class="img-fluid partner-logo" loading="lazy" />
+
+      <div class="row justify-content-center align-items-center mt-4 g-4" dir="ltr">
+        <div class="col-6 col-md-2 text-center">
+          <img src="images/amity.png" alt="Partner 1" class="img-fluid opacity-75 hover-opacity-100" width="134">
         </div>
-        <div class="col-6 col-md-2">
-          <img src="images/amity2.png" alt="Doctors Without Borders" class="img-fluid partner-logo" loading="lazy" />
+        <div class="col-6 col-md-2 text-center">
+          <img src="images/amity2.png" alt="Partner 2" class="img-fluid opacity-75 hover-opacity-100" width="134">
         </div>
-        <div class="col-6 col-md-2">
-          <img src="images/amity3.png" alt="Health Partners" class="img-fluid partner-logo" loading="lazy" />
+        <div class="col-6 col-md-2 text-center">
+          <img src="images/amity3.png" alt="Partner 3" class="img-fluid opacity-75 hover-opacity-100" width="134">
         </div>
-        <div class="col-6 col-md-2">
-          <img src="images/amity6.png" alt="Oxfam" class="img-fluid partner-logo" loading="lazy" />
+        <div class="col-6 col-md-2 text-center">
+          <img src="images/amity6.png" alt="Partner 4" class="img-fluid opacity-75 hover-opacity-100" width="134">
         </div>
-        <div class="col-6 col-md-2">
-          <img src="images/amity5.png" alt="Oxfam" class="img-fluid partner-logo" loading="lazy" />
+        <div class="col-6 col-md-2 text-center">
+          <img src="images/amity5.png" alt="Partner 5" class="img-fluid opacity-75 hover-opacity-100" width="134">
         </div>
       </div>
+
     </div>
   </section>
 
+
+
   <!-- Program Section -->
-  <section id="programs" class="program-section">
+  <section id="programs" class="py-5 text-end" dir="rtl">
     <div class="container">
-      <h3 class="text-center program-title">
+      <h3 class="text-center text-primary fs-4 fw-normal font-secondary">
         تقديم الدعم المناسب للحالات المناسبة
       </h3>
-      <p class="text-center program-description">
+      <p class="text-center fs-1 fw-bold font-primary text-dark mt-3">
         مجموعة متنوعة من الأطراف الصناعية
       </p>
 
-      <div class="row justify-content-center mt-5">
-        <div class="col-md-5">
-          <div class="product-card">
-            <img src="images/erbr.png" alt="T-4040" class="product-image" loading="lazy" />
-            <div class="product-info">
-              <h4>أرجل صناعية T-4040</h4>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها.
+      <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+        <!-- Start Card -->
+        <div class="col">
+          <div class="card h-100 border rounded-4 shadow-sm product-card-hover">
+            <img src="images/erbr.png" class="card-img-top m-0 object-fit-cover" style="height: 300px;"
+              alt="رجل صناعية طراز T-4040" />
+            <div class="card-body text-start">
+              <h4 class="card-title fs-3 fw-normal text-dark font-primary">أرجل صناعية T-4040</h4>
+              <p class="card-text text-muted fw-lighter fw-light lh-lg">
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي
+                للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
               </p>
-              <div class="price-section">
-                <img src="images/image.png" alt="T-4040" class="product-price-image" />
-                <div class="currency-price justify-content-between d-flex" dir="rtl">
-                  <span class="currency">1900 ر.س</span>
-                  <span class="price">2</span>
+              <div class="my-3">
+                <img src="images/image.png" class="img-fluid mb-2" alt="price bar" style="height: 20px;" />
+                <div class="d-flex justify-content-between">
+                  <span class="fw-bold text-dark">1900 ر.س</span>
+                  <span>2</span>
+                </div>
+                <div class="d-flex justify-content-between text-muted">
+                  <span>من 1900 ر.س</span>
+                  <span>متبرعين</span>
                 </div>
               </div>
-              <div class="price-section">
-                <div class="currency-price justify-content-between d-flex" dir="rtl">
-                  <span class="currency" style="color: rgba(109, 115, 143, 1)">من 1900 ر.س
-                  </span>
-                  <span class="price" style="color: rgba(109, 115, 143, 1)">متبرعين</span>
-                </div>
-              </div>
-              <div class="product-footer">
-                <button class="btn-donate">تبرع الأن</button>
-                <button class="btn-cart">
+              <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-outline-light p-2">
                   <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M3.19165 3.22632H5.51166C6.95166 3.22632 8.08499 4.46632 7.96499 5.89299L6.85832 19.173C6.67165 21.3463 8.39164 23.213 10.5783 23.213H24.7783C26.6983 23.213 28.3783 21.6397 28.525 19.733L29.245 9.73299C29.405 7.51966 27.725 5.71965 25.4983 5.71965H8.28499"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path
                       d="M22.1917 29.8929C23.1122 29.8929 23.8584 29.1467 23.8584 28.2262C23.8584 27.3058 23.1122 26.5596 22.1917 26.5596C21.2712 26.5596 20.525 27.3058 20.525 28.2262C20.525 29.1467 21.2712 29.8929 22.1917 29.8929Z"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path
                       d="M11.5251 29.8929C12.4455 29.8929 13.1917 29.1467 13.1917 28.2262C13.1917 27.3058 12.4455 26.5596 11.5251 26.5596C10.6046 26.5596 9.8584 27.3058 9.8584 28.2262C9.8584 29.1467 10.6046 29.8929 11.5251 29.8929Z"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12.525 11.2263H28.525" stroke="#897AE3" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" />
-                    <path d="M12.525 11.2263H28.525" stroke="#897AE3" stroke-width="2" stroke-miterlimit="10"
-                      stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </button>
+                <button class="btn btn-main bg-primary-custom text-light w-75">تبرع الآن</button>
               </div>
             </div>
           </div>
         </div>
+        <!-- End Card -->
 
-        <div class="col-md-5">
-          <div class="product-card">
-            <img src="images/erbr2.jpg" alt="T-4040" class="product-image" loading="lazy" />
-            <div class="product-info">
-              <h4>أرجل صناعية T-4040</h4>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
-                الفقرات في الصفحة التي يقرأها.
+        <div class="col">
+          <div class="card h-100 border rounded-4 shadow-sm product-card-hover">
+            <img src="images/erbr2.jpg" class="card-img-top m-0 object-fit-cover" style="height: 300px;"
+              alt="رجل صناعية طراز T-4040" />
+            <div class="card-body text-start">
+              <h4 class="card-title fs-3 fw-normal text-dark font-primary">أرجل صناعية T-4040</h4>
+              <p class="card-text text-muted fw-lighter lh-lg">
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي
+                للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
               </p>
-              <div class="price-section">
-                <img src="images/image.png" alt="T-4040" class="product-price-image" />
-                <div class="currency-price justify-content-between d-flex" dir="rtl">
-                  <span class="currency">1900 ر.س</span>
-                  <span class="price">2</span>
+              <div class="my-3">
+                <img src="images/image.png" class="img-fluid mb-2" alt="price bar" style="height: 20px;" />
+                <div class="d-flex justify-content-between">
+                  <span class="fw-bold text-dark">1900 ر.س</span>
+                  <span>2</span>
                 </div>
-                <div class="currency-price justify-content-between d-flex" dir="rtl">
-                  <span class="currency" style="color: rgba(109, 115, 143, 1)">من 1900 ر.س
-                  </span>
-                  <span class="price" style="color: rgba(109, 115, 143, 1)">متبرعين</span>
+                <div class="d-flex justify-content-between text-muted">
+                  <span>من 1900 ر.س</span>
+                  <span>متبرعين</span>
                 </div>
               </div>
-              <div class="product-footer">
-                <button class="btn-donate">تبرع الأن</button>
-                <button class="btn-cart">
+              <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn-outline-light p-2">
                   <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M3.19165 3.22632H5.51166C6.95166 3.22632 8.08499 4.46632 7.96499 5.89299L6.85832 19.173C6.67165 21.3463 8.39164 23.213 10.5783 23.213H24.7783C26.6983 23.213 28.3783 21.6397 28.525 19.733L29.245 9.73299C29.405 7.51966 27.725 5.71965 25.4983 5.71965H8.28499"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path
                       d="M22.1917 29.8929C23.1122 29.8929 23.8584 29.1467 23.8584 28.2262C23.8584 27.3058 23.1122 26.5596 22.1917 26.5596C21.2712 26.5596 20.525 27.3058 20.525 28.2262C20.525 29.1467 21.2712 29.8929 22.1917 29.8929Z"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round" />
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path
                       d="M11.5251 29.8929C12.4455 29.8929 13.1917 29.1467 13.1917 28.2262C13.1917 27.3058 12.4455 26.5596 11.5251 26.5596C10.6046 26.5596 9.8584 27.3058 9.8584 28.2262C9.8584 29.1467 10.6046 29.8929 11.5251 29.8929Z"
-                      stroke="#897AE3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                      stroke="#897AE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12.525 11.2263H28.525" stroke="#897AE3" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round" />
-                    <path d="M12.525 11.2263H28.525" stroke="#897AE3" stroke-width="2" stroke-miterlimit="10"
-                      stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </button>
+                <button class="btn btn-main bg-primary-custom text-light w-75">تبرع الآن</button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="text-center mt-4">
-        <button class="view-all-btn">عرض جميع الحالات</button>
+      <div class="d-flex justify-content-center mt-5 ">
+        <button class="btn btn-main px-4 text-light bg-primary-custom py-3 rounded-3 fw-semibold text-center">عرض
+          جميع
+          الحالات</button>
       </div>
+
+
     </div>
   </section>
 
   <!-- Who We Are -->
-  <section id="who-we-are" class="who-we-are-section">
-    <div class="container">
-      <h3 class="text-center who-we-are-title">
-        تقديم الدعم المناسب للحالات المناسبة
-      </h3>
-      <p class="text-center who-we-are-description">
-        لماذا اخترتنا؟ اكتشف ما لا مثيل له تأثير جمعيتنا الخيرية
-      </p>
-
+  <section id="who-we-are" class="py-5 bg-white">
+    <div class="container-fluid">
       <!-- Stats Row -->
-      <div class="row justify-content-center mt-5 text-center">
-        <div class="col-6 col-md-3">
-          <div class="stat-card">
-            <div class="stat-icon">
-              <img src="images/weAre1.png" alt="Stat Icon" class="img-fluid" loading="lazy" />
-            </div>
-            <h4 class="stat-number">90</h4>
-            <p class="stat-text">توفير الاطراف الصناعية</p>
+      <div class="row justify-content-center text-center mb-5">
+        <!-- Stat Card -->
+        <div class="col-6 col-md-3 mb-4">
+          <div class="p-4 stat-card">
+            <img src="images/weAre5.png" class="stat-icon" alt="Stat Icon" loading="lazy">
+            <h4 class="stat-number">30</h4>
+            <p class="stat-text">توفير الأجهزة التعويضية المساندة</p>
           </div>
         </div>
 
-        <div class="col-6 col-md-3">
-          <div class="stat-card">
-            <div class="stat-icon">
-              <img src="images/weAre2.png" alt="Stat Icon" class="img-fluid" loading="lazy" />
-            </div>
-            <h4 class="stat-number">800</h4>
-            <p class="stat-text">جلسات العلاج الطبيعي</p>
-          </div>
-        </div>
-
-        <div class="col-6 col-md-3">
-          <div class="stat-card">
-            <div class="stat-icon">
-              <img src="images/weAre3.png" alt="Stat Icon" class="img-fluid" loading="lazy" />
-            </div>
+        <div class="col-6 col-md-3 mb-4">
+          <div class="p-4 stat-card">
+            <img src="images/weAre3.png" class="stat-icon" alt="Stat Icon" loading="lazy">
             <h4 class="stat-number">600</h4>
             <p class="stat-text">تأمين مواد استهلاكية (السليكون - لاينر)</p>
           </div>
         </div>
 
-        <div class="col-6 col-md-3 mb-5">
-          <div class="stat-card">
-            <div class="stat-icon">
-              <img src="images/weAre5.png" alt="Stat Icon" class="img-fluid" loading="lazy" />
-            </div>
-            <h4 class="stat-number">30</h4>
-            <p class="stat-text">توفير الأجهزة التعويضية المساندة</p>
+        <div class="col-6 col-md-3 mb-4">
+          <div class="p-4 stat-card">
+            <img src="images/weAre2.png" class="stat-icon" alt="Stat Icon" loading="lazy">
+            <h4 class="stat-number">800</h4>
+            <p class="stat-text">جلسات العلاج الطبيعي</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 mb-4">
+          <div class="p-4 stat-card">
+            <img src="images/weAre1.png" class="stat-icon" alt="Stat Icon" loading="lazy">
+            <h4 class="stat-number">90</h4>
+            <p class="stat-text">توفير الاطراف الصناعية</p>
           </div>
         </div>
       </div>
-      <!-- Who We Are Content -->
-      <div class="row align-items-center justify-content-center mt-5">
-        <div class="col-10">
-          <h2 class="text-center who-we-are-subtitle">
+
+
+      <!-- Subtitle & Foot Image -->
+      <div class="row align-items-center justify-content-center mb-5 position-relative">
+        <div class=" position-absolute who-we-are-img">
+          <img src="images/foot.png" class="img-fluid" alt="Who We Are Image" loading="lazy">
+        </div>
+        <div class="col-md-12 text-center">
+          <h2 class="fw-light fs-5 font-amiri text-primary-custom">
             انضم إلينا في إحداث تأثير إيجابي
           </h2>
-          <p class="text-center mt-5 who-we-are-subdescription">
-            لماذا أخترتنا؟ اكتشف ما لا مثيل له<br />تأثير اختيار جمعيتنا
-            الخيرية
+          <p class="mt-4 fs-2 fw-bold font-almarai">
+            لماذا أخترتنا؟ اكتشف ما لا مثيل له<br>تأثير اختيار جمعيتنا الخيرية
           </p>
-        </div>
-        <div class="col-2">
-          <img src="images/foot.png" alt="Who We Are Image" class="img-fluid who-we-are-image" loading="lazy" />
         </div>
       </div>
 
-      <!-- FAQ Accordion -->
-      <div class="row justify-content-between" dir="rtl">
+
+      <!-- Accordion Section -->
+      <div class="row justify-content-between">
         <div class="col-md-5">
           <div class="accordion" id="accordionLeft">
             <div class="accordion-item">
@@ -435,8 +435,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionLeft">
                 <div class="accordion-body">
-                  يمكنك التبرع بشكل آمن من خلال موقعنا على الانترنت أو الاتصال
-                  بنا للحصول على خيارات أخرى.
+                  يمكنك التبرع بشكل آمن من خلال موقعنا على الانترنت أو الاتصال بنا للحصول على خيارات أخرى.
                 </div>
               </div>
             </div>
@@ -448,9 +447,7 @@
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
-                <div class="accordion-body">
-                  نعم يمكنك التطوع معنا في مجالات مختلفة
-                </div>
+                <div class="accordion-body">نعم يمكنك التطوع معنا في مجالات مختلفة</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -461,9 +458,7 @@
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
-                <div class="accordion-body">
-                  نعم نحن نعمل على المستوى الدولي
-                </div>
+                <div class="accordion-body">نعم نحن نعمل على المستوى الدولي</div>
               </div>
             </div>
           </div>
@@ -480,8 +475,8 @@
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
                 <div class="accordion-body">
-                  نحن نقدم الرعاية الصحية الأولية والدعم النفسي واجهزة الاطراف
-                  الصناعية وخدمات توعية لاساخدام الاطراف الصناعية.
+                  نحن نقدم الرعاية الصحية الأولية والدعم النفسي واجهزة الاطراف الصناعية وخدمات توعية لاساخدام الاطراف
+                  الصناعية.
                 </div>
               </div>
             </div>
@@ -493,9 +488,7 @@
                 </button>
               </h2>
               <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
-                <div class="accordion-body">
-                  نحن نقدم الدعم النفسي والعلاج الطبيعي والأطراف الصناعية
-                </div>
+                <div class="accordion-body">نحن نقدم الدعم النفسي والعلاج الطبيعي والأطراف الصناعية</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -506,86 +499,45 @@
                 </button>
               </h2>
               <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
-                <div class="accordion-body">
-                  نحن نقدم خدمات متكاملة لمبتوري الأطراف
-                </div>
+                <div class="accordion-body">نحن نقدم خدمات متكاملة لمبتوري الأطراف</div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
+
   <!--  Articles Section -->
-  <section id="articles" class="articles-section">
+  <section id="articles" class="py-5">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center mb-5">
-        <button class="btn view-all-articles-btn">عرض جميع المقالات</button>
-        <div class="text-end">
-          <h3 class="articles-title">بناء الروابط من خلال أعمال اللطف</h3>
-          <p class="articles-description mb-0">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-staer mb-5 gap-3">
+
+        <div>
+          <h3 class="font-amiri text-primary-custom fs-4 fw-normal mb-2">بناء الروابط من خلال أعمال اللطف</h3>
+          <p class="font-almarai text-dark fs-1 fw-bold mb-0">
             اكتشف آخر التحديثات لدينا<br />وقصص التأثير
           </p>
         </div>
-      </div>
 
-      <div class="row justify-content-center mt-5">
-        <div class="col-md-4">
-          <div class="article-card">
-            <img src="images/erbr2.jpg" alt="Article 1" class="img-fluid article-image" loading="lazy" />
-            <div class="article-info">
-              <h4>تحويل المجتمعات من خلال المشاريع المستدامة</h4>
-              <div class="article-meta">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M5.33337 1.1665C5.42261 1.1665 5.50037 1.24426 5.50037 1.3335V3.3335C5.50037 3.42273 5.42261 3.50049 5.33337 3.50049C5.24414 3.50049 5.16638 3.42273 5.16638 3.3335V1.3335C5.16638 1.24426 5.24414 1.1665 5.33337 1.1665Z"
-                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
-                  <path
-                    d="M10.6666 1.1665C10.7559 1.1665 10.8336 1.24426 10.8336 1.3335V3.3335C10.8336 3.42273 10.7559 3.50049 10.6666 3.50049C10.5774 3.50049 10.4996 3.42273 10.4996 3.3335V1.3335C10.4996 1.24426 10.5774 1.1665 10.6666 1.1665Z"
-                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
-                  <path
-                    d="M5.54199 8.69434C5.66101 8.64493 5.81441 8.67444 5.90234 8.76074C5.96487 8.82917 6 8.91948 6 9C5.99998 9.01092 5.99792 9.03066 5.99121 9.07812C5.99054 9.08216 5.98811 9.09117 5.98145 9.10449L5.97168 9.125L5.96387 9.14746C5.96111 9.15575 5.95487 9.16975 5.94238 9.18848L5.93848 9.19531L5.9375 9.19629C5.93616 9.19803 5.93359 9.20128 5.92871 9.20703C5.92253 9.2143 5.91761 9.21956 5.9082 9.23047C5.90584 9.23321 5.90311 9.23606 5.90039 9.23926C5.83268 9.29897 5.74553 9.33292 5.66699 9.33301C5.64882 9.33301 5.6286 9.33076 5.60742 9.32617L5.54199 9.30566L5.5332 9.30176L5.47754 9.27344C5.46212 9.26337 5.44594 9.25112 5.42773 9.23535C5.36621 9.16669 5.33304 9.08388 5.33301 9C5.33301 8.98207 5.33537 8.96228 5.33984 8.94141L5.36133 8.875C5.37805 8.83486 5.40161 8.79722 5.43262 8.76074C5.47069 8.72834 5.49974 8.71014 5.5332 8.69727V8.69824L5.54199 8.69434Z"
-                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
-                  <path
-                    d="M7.8822 8.69141C7.99115 8.64299 8.14302 8.66962 8.23572 8.76074C8.29826 8.82917 8.33337 8.91948 8.33337 9C8.33336 9.01091 8.3313 9.03063 8.32458 9.07812L8.31482 9.10449L8.30505 9.125L8.29724 9.14746C8.29448 9.15575 8.28824 9.16975 8.27576 9.18848L8.27185 9.19531L8.27087 9.19629C8.26954 9.19803 8.26698 9.20127 8.26208 9.20703C8.25591 9.2143 8.25098 9.21956 8.24158 9.23047C8.23922 9.23321 8.23649 9.23606 8.23376 9.23926C8.16605 9.29898 8.07891 9.33292 8.00037 9.33301C7.98219 9.33301 7.96198 9.33076 7.9408 9.32617L7.87537 9.30566L7.86658 9.30176L7.81091 9.27441C7.79552 9.2644 7.78023 9.25104 7.76208 9.23535C7.70028 9.16659 7.6664 9.08409 7.66638 9C7.66638 8.98206 7.66874 8.96229 7.67322 8.94141L7.6947 8.875C7.71143 8.83485 7.73497 8.79722 7.76599 8.76074C7.80406 8.72835 7.83312 8.71014 7.86658 8.69727L7.8822 8.69141Z"
-                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
-                  <path
-                    d="M10.3333 9.66658C10.2466 9.66658 10.16 9.64659 10.08 9.61326C9.99329 9.57992 9.92663 9.53324 9.85996 9.47324C9.83329 9.43991 9.80662 9.40658 9.77996 9.37325C9.75329 9.33325 9.73329 9.29325 9.71996 9.25325C9.69996 9.21325 9.68663 9.17326 9.67996 9.13326C9.67329 9.08659 9.66663 9.03992 9.66663 8.99992C9.66663 8.82658 9.73996 8.65325 9.85996 8.52659C9.92663 8.46659 9.99329 8.41991 10.08 8.38657C10.3266 8.27991 10.62 8.33992 10.8066 8.52659C10.9266 8.65325 11 8.82658 11 8.99992C11 9.03992 10.9933 9.08659 10.9866 9.13326C10.98 9.17326 10.9666 9.21325 10.9466 9.25325C10.9333 9.29325 10.9133 9.33325 10.8866 9.37325C10.8666 9.40658 10.8333 9.43991 10.8066 9.47324C10.68 9.59324 10.5066 9.66658 10.3333 9.66658Z"
-                    fill="#101840" />
-                  <path
-                    d="M5.66667 12.0003C5.58 12.0003 5.49333 11.9803 5.41333 11.947C5.33333 11.9136 5.26 11.8669 5.19333 11.8069C5.07333 11.6803 5 11.507 5 11.3336C5 11.247 5.02 11.1603 5.05333 11.0803C5.08667 10.9936 5.13333 10.9203 5.19333 10.8603C5.44 10.6136 5.89333 10.6136 6.14 10.8603C6.26 10.987 6.33333 11.1603 6.33333 11.3336C6.33333 11.507 6.26 11.6803 6.14 11.8069C6.01333 11.9269 5.84 12.0003 5.66667 12.0003Z"
-                    fill="#101840" />
-                  <path
-                    d="M8.00004 12.0003C7.82671 12.0003 7.65337 11.9269 7.52671 11.8069C7.40671 11.6803 7.33337 11.507 7.33337 11.3336C7.33337 11.247 7.35338 11.1603 7.38671 11.0803C7.42004 10.9936 7.46671 10.9203 7.52671 10.8603C7.77337 10.6136 8.22671 10.6136 8.47337 10.8603C8.53337 10.9203 8.58004 10.9936 8.61337 11.0803C8.64671 11.1603 8.66671 11.247 8.66671 11.3336C8.66671 11.507 8.59337 11.6803 8.47337 11.8069C8.34671 11.9269 8.17337 12.0003 8.00004 12.0003Z"
-                    fill="#101840" />
-                  <path
-                    d="M10.3333 11.9999C10.16 11.9999 9.98663 11.9266 9.85996 11.8066C9.79996 11.7466 9.75329 11.6733 9.71996 11.5866C9.68663 11.5066 9.66663 11.4199 9.66663 11.3333C9.66663 11.2466 9.68663 11.1599 9.71996 11.0799C9.75329 10.9933 9.79996 10.9199 9.85996 10.8599C10.0133 10.7066 10.2466 10.6333 10.46 10.6799C10.5066 10.6866 10.5466 10.6999 10.5866 10.7199C10.6266 10.7333 10.6666 10.7533 10.7066 10.78C10.74 10.8 10.7733 10.8333 10.8066 10.8599C10.9266 10.9866 11 11.1599 11 11.3333C11 11.5066 10.9266 11.6799 10.8066 11.8066C10.68 11.9266 10.5066 11.9999 10.3333 11.9999Z"
-                    fill="#101840" />
-                  <path
-                    d="M13.6667 6.56006H2.33337C2.06004 6.56006 1.83337 6.33339 1.83337 6.06006C1.83337 5.78673 2.06004 5.56006 2.33337 5.56006H13.6667C13.94 5.56006 14.1667 5.78673 14.1667 6.06006C14.1667 6.33339 13.94 6.56006 13.6667 6.56006Z"
-                    fill="#101840" />
-                  <path
-                    d="M10.6667 15.1668H5.33333C2.9 15.1668 1.5 13.7668 1.5 11.3335V5.66683C1.5 3.2335 2.9 1.8335 5.33333 1.8335H10.6667C13.1 1.8335 14.5 3.2335 14.5 5.66683V11.3335C14.5 13.7668 13.1 15.1668 10.6667 15.1668ZM5.33333 2.8335C3.42667 2.8335 2.5 3.76016 2.5 5.66683V11.3335C2.5 13.2402 3.42667 14.1668 5.33333 14.1668H10.6667C12.5733 14.1668 13.5 13.2402 13.5 11.3335V5.66683C13.5 3.76016 12.5733 2.8335 10.6667 2.8335H5.33333Z"
-                    fill="#101840" />
-                </svg>
-
-                <span>21 أغسطس 2023</span>
-              </div>
-              <p>
-                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-                سيلهي القارئ عن التركيز على الشكل الخارجي للنص.
-              </p>
-              <button class="btn read-more-btn">قراءة أكثر</button>
-            </div>
-          </div>
+        <div>
+          <button class="btn btn-primary px-4 py-3 rounded-3 fw-bold fs-6" style="background-color: #897ae3;">
+            عرض جميع المقالات
+          </button>
         </div>
 
-        <div class="col-md-4">
-          <div class="article-card">
-            <img src="images/artical2.png" alt="Article 2" class="img-fluid article-image" loading="lazy" />
-            <div class="article-info">
-              <h4>تحويل المجتمعات من خلال المشاريع المستدامة</h4>
-              <div class="article-meta">
+      </div>
+
+      <div class="row justify-content-center mt-5 g-4">
+        <div class="col-md-4 col-lg-4">
+          <div class="card border-0 shadow-sm h-100 hover-translate">
+            <img src="images/artical1.png" alt="Article 2" class="card-img-top img-fluid m-0"
+              style="height: 240px; object-fit: cover;" loading="lazy" />
+            <div class="card-body text-start">
+              <h4 class="card-title text-dark fs-5 fw-bold mb-3">تحويل المجتمعات من خلال المشاريع المستدامة</h4>
+              <div class="d-flex align-items-center justify-content-start gap-2 mb-3">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M5.33337 1.1665C5.42261 1.1665 5.50037 1.24426 5.50037 1.3335V3.3335C5.50037 3.42273 5.42261 3.50049 5.33337 3.50049C5.24414 3.50049 5.16638 3.42273 5.16638 3.3335V1.3335C5.16638 1.24426 5.24414 1.1665 5.33337 1.1665Z"
@@ -618,15 +570,236 @@
                     d="M10.6667 15.1668H5.33333C2.9 15.1668 1.5 13.7668 1.5 11.3335V5.66683C1.5 3.2335 2.9 1.8335 5.33333 1.8335H10.6667C13.1 1.8335 14.5 3.2335 14.5 5.66683V11.3335C14.5 13.7668 13.1 15.1668 10.6667 15.1668ZM5.33333 2.8335C3.42667 2.8335 2.5 3.76016 2.5 5.66683V11.3335C2.5 13.2402 3.42667 14.1668 5.33333 14.1668H10.6667C12.5733 14.1668 13.5 13.2402 13.5 11.3335V5.66683C13.5 3.76016 12.5733 2.8335 10.6667 2.8335H5.33333Z"
                     fill="#101840" />
                 </svg>
-
-                <span>21 أغسطس 2023</span>
+                <span class="font-almarai text-dark fs-6">21 أغسطس 2023</span>
               </div>
-              <p>
+              <p class="card-text text-secondary fs-6 lh-base mb-4">
                 العمل معًا لتحقيق أهداف مشتركة يقوي الروابط بين المجتمع,
                 المجتمعات المتماسكة اجتماعياً مجهزة بشكل أفضل للتغلب على
                 العقبات والتكيف
               </p>
-              <button class="btn read-more-btn">قراءة أكثر</button>
+              <button class="btn btn-primary bg-primary-custom border-0 px-3 py-2 rounded-2 fw-bold fs-6">قراءة
+                أكثر</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+          <div class="card border-0 shadow-sm h-100 hover-translate">
+            <img src="images/artical2.png" alt="Article 2" class="card-img-top img-fluid m-0"
+              style="height: 240px; object-fit: cover;" loading="lazy" />
+            <div class="card-body text-start">
+              <h4 class="card-title text-dark fs-5 fw-bold mb-3">تحويل المجتمعات من خلال المشاريع المستدامة</h4>
+              <div class="d-flex align-items-center justify-content-start gap-2 mb-3">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.33337 1.1665C5.42261 1.1665 5.50037 1.24426 5.50037 1.3335V3.3335C5.50037 3.42273 5.42261 3.50049 5.33337 3.50049C5.24414 3.50049 5.16638 3.42273 5.16638 3.3335V1.3335C5.16638 1.24426 5.24414 1.1665 5.33337 1.1665Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M10.6666 1.1665C10.7559 1.1665 10.8336 1.24426 10.8336 1.3335V3.3335C10.8336 3.42273 10.7559 3.50049 10.6666 3.50049C10.5774 3.50049 10.4996 3.42273 10.4996 3.3335V1.3335C10.4996 1.24426 10.5774 1.1665 10.6666 1.1665Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M5.54199 8.69434C5.66101 8.64493 5.81441 8.67444 5.90234 8.76074C5.96487 8.82917 6 8.91948 6 9C5.99998 9.01092 5.99792 9.03066 5.99121 9.07812C5.99054 9.08216 5.98811 9.09117 5.98145 9.10449L5.97168 9.125L5.96387 9.14746C5.96111 9.15575 5.95487 9.16975 5.94238 9.18848L5.93848 9.19531L5.9375 9.19629C5.93616 9.19803 5.93359 9.20128 5.92871 9.20703C5.92253 9.2143 5.91761 9.21956 5.9082 9.23047C5.90584 9.23321 5.90311 9.23606 5.90039 9.23926C5.83268 9.29897 5.74553 9.33292 5.66699 9.33301C5.64882 9.33301 5.6286 9.33076 5.60742 9.32617L5.54199 9.30566L5.5332 9.30176L5.47754 9.27344C5.46212 9.26337 5.44594 9.25112 5.42773 9.23535C5.36621 9.16669 5.33304 9.08388 5.33301 9C5.33301 8.98207 5.33537 8.96228 5.33984 8.94141L5.36133 8.875C5.37805 8.83486 5.40161 8.79722 5.43262 8.76074C5.47069 8.72834 5.49974 8.71014 5.5332 8.69727V8.69824L5.54199 8.69434Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M7.8822 8.69141C7.99115 8.64299 8.14302 8.66962 8.23572 8.76074C8.29826 8.82917 8.33337 8.91948 8.33337 9C8.33336 9.01091 8.3313 9.03063 8.32458 9.07812L8.31482 9.10449L8.30505 9.125L8.29724 9.14746C8.29448 9.15575 8.28824 9.16975 8.27576 9.18848L8.27185 9.19531L8.27087 9.19629C8.26954 9.19803 8.26698 9.20127 8.26208 9.20703C8.25591 9.2143 8.25098 9.21956 8.24158 9.23047C8.23922 9.23321 8.23649 9.23606 8.23376 9.23926C8.16605 9.29898 8.07891 9.33292 8.00037 9.33301C7.98219 9.33301 7.96198 9.33076 7.9408 9.32617L7.87537 9.30566L7.86658 9.30176L7.81091 9.27441C7.79552 9.2644 7.78023 9.25104 7.76208 9.23535C7.70028 9.16659 7.6664 9.08409 7.66638 9C7.66638 8.98206 7.66874 8.96229 7.67322 8.94141L7.6947 8.875C7.71143 8.83485 7.73497 8.79722 7.76599 8.76074C7.80406 8.72835 7.83312 8.71014 7.86658 8.69727L7.8822 8.69141Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M10.3333 9.66658C10.2466 9.66658 10.16 9.64659 10.08 9.61326C9.99329 9.57992 9.92663 9.53324 9.85996 9.47324C9.83329 9.43991 9.80662 9.40658 9.77996 9.37325C9.75329 9.33325 9.73329 9.29325 9.71996 9.25325C9.69996 9.21325 9.68663 9.17326 9.67996 9.13326C9.67329 9.08659 9.66663 9.03992 9.66663 8.99992C9.66663 8.82658 9.73996 8.65325 9.85996 8.52659C9.92663 8.46659 9.99329 8.41991 10.08 8.38657C10.3266 8.27991 10.62 8.33992 10.8066 8.52659C10.9266 8.65325 11 8.82658 11 8.99992C11 9.03992 10.9933 9.08659 10.9866 9.13326C10.98 9.17326 10.9666 9.21325 10.9466 9.25325C10.9333 9.29325 10.9133 9.33325 10.8866 9.37325C10.8666 9.40658 10.8333 9.43991 10.8066 9.47324C10.68 9.59324 10.5066 9.66658 10.3333 9.66658Z"
+                    fill="#101840" />
+                  <path
+                    d="M5.66667 12.0003C5.58 12.0003 5.49333 11.9803 5.41333 11.947C5.33333 11.9136 5.26 11.8669 5.19333 11.8069C5.07333 11.6803 5 11.507 5 11.3336C5 11.247 5.02 11.1603 5.05333 11.0803C5.08667 10.9936 5.13333 10.9203 5.19333 10.8603C5.44 10.6136 5.89333 10.6136 6.14 10.8603C6.26 10.987 6.33333 11.1603 6.33333 11.3336C6.33333 11.507 6.26 11.6803 6.14 11.8069C6.01333 11.9269 5.84 12.0003 5.66667 12.0003Z"
+                    fill="#101840" />
+                  <path
+                    d="M8.00004 12.0003C7.82671 12.0003 7.65337 11.9269 7.52671 11.8069C7.40671 11.6803 7.33337 11.507 7.33337 11.3336C7.33337 11.247 7.35338 11.1603 7.38671 11.0803C7.42004 10.9936 7.46671 10.9203 7.52671 10.8603C7.77337 10.6136 8.22671 10.6136 8.47337 10.8603C8.53337 10.9203 8.58004 10.9936 8.61337 11.0803C8.64671 11.1603 8.66671 11.247 8.66671 11.3336C8.66671 11.507 8.59337 11.6803 8.47337 11.8069C8.34671 11.9269 8.17337 12.0003 8.00004 12.0003Z"
+                    fill="#101840" />
+                  <path
+                    d="M10.3333 11.9999C10.16 11.9999 9.98663 11.9266 9.85996 11.8066C9.79996 11.7466 9.75329 11.6733 9.71996 11.5866C9.68663 11.5066 9.66663 11.4199 9.66663 11.3333C9.66663 11.2466 9.68663 11.1599 9.71996 11.0799C9.75329 10.9933 9.79996 10.9199 9.85996 10.8599C10.0133 10.7066 10.2466 10.6333 10.46 10.6799C10.5066 10.6866 10.5466 10.6999 10.5866 10.7199C10.6266 10.7333 10.6666 10.7533 10.7066 10.78C10.74 10.8 10.7733 10.8333 10.8066 10.8599C10.9266 10.9866 11 11.1599 11 11.3333C11 11.5066 10.9266 11.6799 10.8066 11.8066C10.68 11.9266 10.5066 11.9999 10.3333 11.9999Z"
+                    fill="#101840" />
+                  <path
+                    d="M13.6667 6.56006H2.33337C2.06004 6.56006 1.83337 6.33339 1.83337 6.06006C1.83337 5.78673 2.06004 5.56006 2.33337 5.56006H13.6667C13.94 5.56006 14.1667 5.78673 14.1667 6.06006C14.1667 6.33339 13.94 6.56006 13.6667 6.56006Z"
+                    fill="#101840" />
+                  <path
+                    d="M10.6667 15.1668H5.33333C2.9 15.1668 1.5 13.7668 1.5 11.3335V5.66683C1.5 3.2335 2.9 1.8335 5.33333 1.8335H10.6667C13.1 1.8335 14.5 3.2335 14.5 5.66683V11.3335C14.5 13.7668 13.1 15.1668 10.6667 15.1668ZM5.33333 2.8335C3.42667 2.8335 2.5 3.76016 2.5 5.66683V11.3335C2.5 13.2402 3.42667 14.1668 5.33333 14.1668H10.6667C12.5733 14.1668 13.5 13.2402 13.5 11.3335V5.66683C13.5 3.76016 12.5733 2.8335 10.6667 2.8335H5.33333Z"
+                    fill="#101840" />
+                </svg>
+                <span class="font-almarai text-dark fs-6">21 أغسطس 2023</span>
+              </div>
+              <p class="card-text text-secondary fs-6 lh-base mb-4">
+                العمل معًا لتحقيق أهداف مشتركة يقوي الروابط بين المجتمع,
+                المجتمعات المتماسكة اجتماعياً مجهزة بشكل أفضل للتغلب على
+                العقبات والتكيف
+              </p>
+              <button class="btn btn-primary bg-primary-custom border-0 px-3 py-2 rounded-2 fw-bold fs-6">قراءة
+                أكثر</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 text-start">
+          <div class="card border-0 shadow-sm h-100 hover-translate">
+            <img src="images/erbr2.jpg" alt="Article 1" class="card-img-top img-fluid m-0"
+              style="height: 240px; object-fit: cover;" loading="lazy" />
+            <div class="card-body text-start">
+              <h4 class="card-title text-dark fs-5 fw-bold mb-3">تحويل المجتمعات من خلال المشاريع المستدامة</h4>
+              <div class="d-flex align-items-center justify-content-start gap-2 mb-3">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.33337 1.1665C5.42261 1.1665 5.50037 1.24426 5.50037 1.3335V3.3335C5.50037 3.42273 5.42261 3.50049 5.33337 3.50049C5.24414 3.50049 5.16638 3.42273 5.16638 3.3335V1.3335C5.16638 1.24426 5.24414 1.1665 5.33337 1.1665Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M10.6666 1.1665C10.7559 1.1665 10.8336 1.24426 10.8336 1.3335V3.3335C10.8336 3.42273 10.7559 3.50049 10.6666 3.50049C10.5774 3.50049 10.4996 3.42273 10.4996 3.3335V1.3335C10.4996 1.24426 10.5774 1.1665 10.6666 1.1665Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M5.54199 8.69434C5.66101 8.64493 5.81441 8.67444 5.90234 8.76074C5.96487 8.82917 6 8.91948 6 9C5.99998 9.01092 5.99792 9.03066 5.99121 9.07812C5.99054 9.08216 5.98811 9.09117 5.98145 9.10449L5.97168 9.125L5.96387 9.14746C5.96111 9.15575 5.95487 9.16975 5.94238 9.18848L5.93848 9.19531L5.9375 9.19629C5.93616 9.19803 5.93359 9.20128 5.92871 9.20703C5.92253 9.2143 5.91761 9.21956 5.9082 9.23047C5.90584 9.23321 5.90311 9.23606 5.90039 9.23926C5.83268 9.29897 5.74553 9.33292 5.66699 9.33301C5.64882 9.33301 5.6286 9.33076 5.60742 9.32617L5.54199 9.30566L5.5332 9.30176L5.47754 9.27344C5.46212 9.26337 5.44594 9.25112 5.42773 9.23535C5.36621 9.16669 5.33304 9.08388 5.33301 9C5.33301 8.98207 5.33537 8.96228 5.33984 8.94141L5.36133 8.875C5.37805 8.83486 5.40161 8.79722 5.43262 8.76074C5.47069 8.72834 5.49974 8.71014 5.5332 8.69727V8.69824L5.54199 8.69434Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M7.8822 8.69141C7.99115 8.64299 8.14302 8.66962 8.23572 8.76074C8.29826 8.82917 8.33337 8.91948 8.33337 9C8.33336 9.01091 8.3313 9.03063 8.32458 9.07812L8.31482 9.10449L8.30505 9.125L8.29724 9.14746C8.29448 9.15575 8.28824 9.16975 8.27576 9.18848L8.27185 9.19531L8.27087 9.19629C8.26954 9.19803 8.26698 9.20127 8.26208 9.20703C8.25591 9.2143 8.25098 9.21956 8.24158 9.23047C8.23922 9.23321 8.23649 9.23606 8.23376 9.23926C8.16605 9.29898 8.07891 9.33292 8.00037 9.33301C7.98219 9.33301 7.96198 9.33076 7.9408 9.32617L7.87537 9.30566L7.86658 9.30176L7.81091 9.27441C7.79552 9.2644 7.78023 9.25104 7.76208 9.23535C7.70028 9.16659 7.6664 9.08409 7.66638 9C7.66638 8.98206 7.66874 8.96229 7.67322 8.94141L7.6947 8.875C7.71143 8.83485 7.73497 8.79722 7.76599 8.76074C7.80406 8.72835 7.83312 8.71014 7.86658 8.69727L7.8822 8.69141Z"
+                    fill="#101840" stroke="#101840" stroke-width="0.666667" />
+                  <path
+                    d="M10.3333 9.66658C10.2466 9.66658 10.16 9.64659 10.08 9.61326C9.99329 9.57992 9.92663 9.53324 9.85996 9.47324C9.83329 9.43991 9.80662 9.40658 9.77996 9.37325C9.75329 9.33325 9.73329 9.29325 9.71996 9.25325C9.69996 9.21325 9.68663 9.17326 9.67996 9.13326C9.67329 9.08659 9.66663 9.03992 9.66663 8.99992C9.66663 8.82658 9.73996 8.65325 9.85996 8.52659C9.92663 8.46659 9.99329 8.41991 10.08 8.38657C10.3266 8.27991 10.62 8.33992 10.8066 8.52659C10.9266 8.65325 11 8.82658 11 8.99992C11 9.03992 10.9933 9.08659 10.9866 9.13326C10.98 9.17326 10.9666 9.21325 10.9466 9.25325C10.9333 9.29325 10.9133 9.33325 10.8866 9.37325C10.8666 9.40658 10.8333 9.43991 10.8066 9.47324C10.68 9.59324 10.5066 9.66658 10.3333 9.66658Z"
+                    fill="#101840" />
+                  <path
+                    d="M5.66667 12.0003C5.58 12.0003 5.49333 11.9803 5.41333 11.947C5.33333 11.9136 5.26 11.8669 5.19333 11.8069C5.07333 11.6803 5 11.507 5 11.3336C5 11.247 5.02 11.1603 5.05333 11.0803C5.08667 10.9936 5.13333 10.9203 5.19333 10.8603C5.44 10.6136 5.89333 10.6136 6.14 10.8603C6.26 10.987 6.33333 11.1603 6.33333 11.3336C6.33333 11.507 6.26 11.6803 6.14 11.8069C6.01333 11.9269 5.84 12.0003 5.66667 12.0003Z"
+                    fill="#101840" />
+                  <path
+                    d="M8.00004 12.0003C7.82671 12.0003 7.65337 11.9269 7.52671 11.8069C7.40671 11.6803 7.33337 11.507 7.33337 11.3336C7.33337 11.247 7.35338 11.1603 7.38671 11.0803C7.42004 10.9936 7.46671 10.9203 7.52671 10.8603C7.77337 10.6136 8.22671 10.6136 8.47337 10.8603C8.53337 10.9203 8.58004 10.9936 8.61337 11.0803C8.64671 11.1603 8.66671 11.247 8.66671 11.3336C8.66671 11.507 8.59337 11.6803 8.47337 11.8069C8.34671 11.9269 8.17337 12.0003 8.00004 12.0003Z"
+                    fill="#101840" />
+                  <path
+                    d="M10.3333 11.9999C10.16 11.9999 9.98663 11.9266 9.85996 11.8066C9.79996 11.7466 9.75329 11.6733 9.71996 11.5866C9.68663 11.5066 9.66663 11.4199 9.66663 11.3333C9.66663 11.2466 9.68663 11.1599 9.71996 11.0799C9.75329 10.9933 9.79996 10.9199 9.85996 10.8599C10.0133 10.7066 10.2466 10.6333 10.46 10.6799C10.5066 10.6866 10.5466 10.6999 10.5866 10.7199C10.6266 10.7333 10.6666 10.7533 10.7066 10.78C10.74 10.8 10.7733 10.8333 10.8066 10.8599C10.9266 10.9866 11 11.1599 11 11.3333C11 11.5066 10.9266 11.6799 10.8066 11.8066C10.68 11.9266 10.5066 11.9999 10.3333 11.9999Z"
+                    fill="#101840" />
+                  <path
+                    d="M13.6667 6.56006H2.33337C2.06004 6.56006 1.83337 6.33339 1.83337 6.06006C1.83337 5.78673 2.06004 5.56006 2.33337 5.56006H13.6667C13.94 5.56006 14.1667 5.78673 14.1667 6.06006C14.1667 6.33339 13.94 6.56006 13.6667 6.56006Z"
+                    fill="#101840" />
+                  <path
+                    d="M10.6667 15.1668H5.33333C2.9 15.1668 1.5 13.7668 1.5 11.3335V5.66683C1.5 3.2335 2.9 1.8335 5.33333 1.8335H10.6667C13.1 1.8335 14.5 3.2335 14.5 5.66683V11.3335C14.5 13.7668 13.1 15.1668 10.6667 15.1668ZM5.33333 2.8335C3.42667 2.8335 2.5 3.76016 2.5 5.66683V11.3335C2.5 13.2402 3.42667 14.1668 5.33333 14.1668H10.6667C12.5733 14.1668 13.5 13.2402 13.5 11.3335V5.66683C13.5 3.76016 12.5733 2.8335 10.6667 2.8335H5.33333Z"
+                    fill="#101840" />
+                </svg>
+                <span class="font-almarai text-dark fs-6">21 أغسطس 2023</span>
+              </div>
+              <p class="card-text text-secondary fs-6 lh-base mb-4">
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص.
+              </p>
+              <button class="btn btn-primary bg-primary-custom border-0 px-3 py-2 rounded-2 fw-bold fs-6">قراءة
+                أكثر</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="font-amiri text-primary-custom fs-3 fw-normal mb-3">اتصل بنا</h2>
+        <p class="font-almarai text-dark fs-1 fw-bold mb-0">
+          <span class="d-block d-md-inline">نحن نقدم المساعدة والمساعدة</span>
+          <span class="d-block d-md-inline">المخصصة لمبتوري الاطراف</span>
+        </p>
+      </div>
+
+      <div class="row justify-content-center g-4">
+        <!-- Contact Form Column -->
+        <div class="col-lg-6 order-lg-2">
+          <div class="bg-light-form p-4 rounded-4 shadow-sm">
+            <h3 class="font-almarai text-dark fs-2 fw-bold mb-3">هل لديك سؤال أو تعليق؟</h3>
+            <p class="font-almarai text-secondary fs-5 mb-4">
+              تواصل معنا من خلال النموذج أدناه ودعنا نبدأ محادثة حول إحداث فرق.
+            </p>
+            <form class="needs-validation" novalidate>
+              <div class="mb-3">
+                <input type="text" class="form-control bg-white py-3 px-3 border-0" id="name" placeholder="أدخل اسمك"
+                  required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control bg-white py-3 px-3 border-0 text-start" id="email"
+                  placeholder="أدخل بريدك الإلكتروني" required>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control bg-white py-3 px-3 border-0" id="message" rows="4" placeholder="الرسالة"
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn bg-primary-custom text-white w-100 py-3 border-0">إرسال</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info Column -->
+        <div class="col-lg-6 order-lg-1">
+          <div class="d-flex flex-column gap-4">
+            <!-- Address Card -->
+            <div class="d-flex gap-3 hover-lift p-3 rounded-3 bg-white">
+              <div
+                class="bg-primary-custom rounded-circle p-3 flex-shrink-0 d-flex align-items-center justify-content-center"
+                style="width: 62px; height: 62px;">
+                <svg class="me-0
+                " width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 18.8931C13.16 18.8931 10.84 16.5864 10.84 13.7331C10.84 10.8798 13.16 8.58643 16 8.58643C18.84 8.58643 21.16 10.8931 21.16 13.7464C21.16 16.5998 18.84 18.8931 16 18.8931ZM16 10.5864C14.2666 10.5864 12.84 11.9998 12.84 13.7464C12.84 15.4931 14.2533 16.9064 16 16.9064C17.7466 16.9064 19.16 15.4931 19.16 13.7464C19.16 11.9998 17.7333 10.5864 16 10.5864Z"
+                    fill="white" />
+                  <path
+                    d="M16.0001 30.3465C14.0268 30.3465 12.0401 29.5998 10.4934 28.1198C6.56011 24.3332 2.21345 18.2932 3.85345 11.1065C5.33345 4.5865 11.0268 1.6665 16.0001 1.6665C16.0001 1.6665 16.0001 1.6665 16.0134 1.6665C20.9868 1.6665 26.6801 4.5865 28.1601 11.1198C29.7868 18.3065 25.4401 24.3332 21.5068 28.1198C19.9601 29.5998 17.9734 30.3465 16.0001 30.3465ZM16.0001 3.6665C12.1201 3.6665 7.13345 5.73317 5.81345 11.5465C4.37345 17.8265 8.32011 23.2398 11.8934 26.6665C14.2001 28.8932 17.8134 28.8932 20.1201 26.6665C23.6801 23.2398 27.6268 17.8265 26.2134 11.5465C24.8801 5.73317 19.8801 3.6665 16.0001 3.6665Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="text-start">
+                <h5 class="font-almarai text-dark fs-5 fw-bold mb-2">الرياض - حي المروج</h5>
+                <p class="font-almarai text-secondary mb-0 fs-6">
+                  ابحث عن العناوين وساعات العمل و المزيد لكل من مواقعنا والشركات التابعة لنا.
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="d-flex gap-3 hover-lift p-3 rounded-3 bg-white">
+              <div
+                class="bg-primary-custom rounded-circle p-3 flex-shrink-0 d-flex align-items-center justify-content-center"
+                style="width: 62px; height: 62px;">
+
+                <svg class="me-0
+                " width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M23.2666 30.5495C21.76 30.5495 20.1733 30.1895 18.5333 29.4961C16.9333 28.8161 15.32 27.8828 13.7466 26.7495C12.1866 25.6028 10.68 24.3228 9.25329 22.9228C7.83996 21.4961 6.55996 19.9895 5.42663 18.4428C4.27996 16.8428 3.35996 15.2428 2.70663 13.6961C2.01329 12.0428 1.66663 10.4428 1.66663 8.93615C1.66663 7.89615 1.85329 6.90948 2.21329 5.98948C2.58663 5.04281 3.18663 4.16281 3.99996 3.40281C5.02663 2.38948 6.19996 1.88281 7.45329 1.88281C7.97329 1.88281 8.50663 2.00281 8.95996 2.21615C9.47996 2.45615 9.91996 2.81615 10.24 3.29615L13.3333 7.65615C13.6133 8.04281 13.8266 8.41615 13.9733 8.78948C14.1466 9.18948 14.24 9.58948 14.24 9.97615C14.24 10.4828 14.0933 10.9761 13.8133 11.4428C13.6133 11.8028 13.3066 12.1895 12.92 12.5761L12.0133 13.5228C12.0266 13.5628 12.04 13.5895 12.0533 13.6161C12.2133 13.8961 12.5333 14.3761 13.1466 15.0961C13.8 15.8428 14.4133 16.5228 15.0266 17.1495C15.8133 17.9228 16.4666 18.5361 17.08 19.0428C17.84 19.6828 18.3333 20.0028 18.6266 20.1495L18.6 20.2161L19.5733 19.2561C19.9866 18.8428 20.3866 18.5361 20.7733 18.3361C21.5066 17.8828 22.44 17.8028 23.3733 18.1895C23.72 18.3361 24.0933 18.5361 24.4933 18.8161L28.92 21.9628C29.4133 22.2961 29.7733 22.7228 29.9866 23.2295C30.1866 23.7361 30.28 24.2028 30.28 24.6695C30.28 25.3095 30.1333 25.9495 29.8533 26.5495C29.5733 27.1495 29.2266 27.6695 28.7866 28.1495C28.0266 28.9895 27.2 29.5895 26.24 29.9761C25.32 30.3495 24.32 30.5495 23.2666 30.5495ZM7.45329 3.88281C6.71996 3.88281 6.03996 4.20281 5.38663 4.84281C4.77329 5.41615 4.34663 6.04281 4.07996 6.72281C3.79996 7.41615 3.66663 8.14948 3.66663 8.93615C3.66663 10.1761 3.95996 11.5228 4.54663 12.9095C5.14663 14.3228 5.98663 15.7895 7.05329 17.2561C8.11996 18.7228 9.33329 20.1495 10.6666 21.4961C12 22.8161 13.44 24.0428 14.92 25.1228C16.36 26.1761 17.84 27.0295 19.3066 27.6428C21.5866 28.6161 23.72 28.8428 25.48 28.1095C26.16 27.8295 26.76 27.4028 27.3066 26.7895C27.6133 26.4561 27.8533 26.0961 28.0533 25.6695C28.2133 25.3361 28.2933 24.9895 28.2933 24.6428C28.2933 24.4295 28.2533 24.2161 28.1466 23.9761C28.1066 23.8961 28.0266 23.7495 27.7733 23.5761L23.3466 20.4295C23.08 20.2428 22.84 20.1095 22.6133 20.0161C22.32 19.8961 22.2 19.7761 21.7466 20.0561C21.48 20.1895 21.24 20.3895 20.9733 20.6561L19.96 21.6561C19.44 22.1628 18.64 22.2828 18.0266 22.0561L17.6666 21.8961C17.12 21.6028 16.48 21.1495 15.7733 20.5495C15.1333 20.0028 14.44 19.3628 13.6 18.5361C12.9466 17.8695 12.2933 17.1628 11.6133 16.3761C10.9866 15.6428 10.5333 15.0161 10.2533 14.4961L10.0933 14.0961C10.0133 13.7895 9.98663 13.6161 9.98663 13.4295C9.98663 12.9495 10.16 12.5228 10.4933 12.1895L11.4933 11.1495C11.76 10.8828 11.96 10.6295 12.0933 10.4028C12.2 10.2295 12.24 10.0828 12.24 9.94948C12.24 9.84281 12.2 9.68281 12.1333 9.52281C12.04 9.30948 11.8933 9.06948 11.7066 8.81615L8.61329 4.44281C8.47996 4.25615 8.31996 4.12281 8.11996 4.02948C7.90663 3.93615 7.67996 3.88281 7.45329 3.88281ZM18.6 20.2295L18.3866 21.1361L18.7466 20.2028C18.68 20.1895 18.6266 20.2028 18.6 20.2295Z"
+                    fill="white" />
+                  <path
+                    d="M26.6666 12.9498C26.1199 12.9498 25.6666 12.4965 25.6666 11.9498V6.5498H20.2666C19.7199 6.5498 19.2666 6.09647 19.2666 5.5498C19.2666 5.00314 19.7199 4.5498 20.2666 4.5498H26.6666C27.2133 4.5498 27.6666 5.00314 27.6666 5.5498V11.9498C27.6666 12.4965 27.2133 12.9498 26.6666 12.9498Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="text-start">
+                <h5 class="font-almarai text-dark fs-5 fw-bold mb-2">0112777900 / 0552300321</h5>
+                <p class="font-almarai text-secondary mb-0 fs-6">
+                  ابحث عن العناوين وساعات العمل و المزيد لكل من مواقعنا والشركات التابعة لنا.
+                </p>
+              </div>
+            </div>
+
+            <!-- Email Card -->
+            <div class="d-flex gap-3 hover-lift p-3 rounded-3 bg-white">
+              <div
+                class="bg-primary-custom rounded-circle p-3 flex-shrink-0 d-flex align-items-center justify-content-center"
+                style="width: 62px; height: 62px;">
+
+                <svg class="me-0
+                " width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.6666 28.3332H9.33329C4.46663 28.3332 1.66663 25.5332 1.66663 20.6665V11.3332C1.66663 6.4665 4.46663 3.6665 9.33329 3.6665H22.6666C27.5333 3.6665 30.3333 6.4665 30.3333 11.3332V20.6665C30.3333 25.5332 27.5333 28.3332 22.6666 28.3332ZM9.33329 5.6665C5.51996 5.6665 3.66663 7.51984 3.66663 11.3332V20.6665C3.66663 24.4798 5.51996 26.3332 9.33329 26.3332H22.6666C26.48 26.3332 28.3333 24.4798 28.3333 20.6665V11.3332C28.3333 7.51984 26.48 5.6665 22.6666 5.6665H9.33329Z"
+                    fill="white" />
+                  <path
+                    d="M15.9997 17.16C14.8797 17.16 13.7464 16.8133 12.8797 16.1066L8.70641 12.7733C8.27974 12.4266 8.19975 11.8 8.54642 11.3733C8.89308 10.9466 9.51975 10.8666 9.94642 11.2133L14.1197 14.5466C15.1331 15.36 16.8531 15.36 17.8664 14.5466L22.0397 11.2133C22.4664 10.8666 23.1064 10.9333 23.4397 11.3733C23.7864 11.8 23.7198 12.44 23.2798 12.7733L19.1064 16.1066C18.2531 16.8133 17.1197 17.16 15.9997 17.16Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="text-start">
+                <h5 class="font-almarai text-dark fs-5 fw-bold mb-2">info@a-ca.sa</h5>
+                <p class="font-almarai text-secondary mb-0 fs-6">
+                  قبل أن تترك لنا خطًا أو تلتقط الهاتف،قد تجد إجابة في قائمة الأسئلة الشائعة لدينا.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -634,154 +807,83 @@
     </div>
   </section>
 
-  <!-- Contact Us Section -->
-  <section id="contact" class="contact-us-section mt-5">
-    <div class="container">
-      <h2 class="text-center mb-4 contact-us-title">اتصل بنا</h2>
-      <p class="text-center mb-5 contact-us-description">
-        نحن نقدم المساعدة والمساعدة <br />
-        المخصصة لمبتوري الاطراف
-      </p>
-
-      <div class="row justify-content-center mb-5">
-        <div class="col-lg-6">
-          <form class="contact-form">
-            <h3 class="form-title">هل لديك سؤال أو تعليق؟</h3>
-            <p class="form-description">
-              تواصل معنا من خلال النموذج أدناه ودعنا نبدأ محادثة حول إحداث
-              فرق.
-            </p>
-            <div class="mb-4">
-              <input type="text" class="form-control" id="name" placeholder="أدخل اسمك" required />
-            </div>
-            <div class="mb-4">
-              <input type="email" class="form-control" id="email" placeholder="أدخل بريدك الإلكتروني" required />
-            </div>
-            <div class="mb-4">
-              <textarea class="form-control" id="message" rows="4" placeholder="اكتب رسالتك هنا" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">إرسال</button>
-          </form>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="contact-form-wrapper">
-            <div class="contact-info-list">
-              <div class="contact-info-item">
-                <div class="icon-wrapper">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M16 18.8931C13.16 18.8931 10.84 16.5864 10.84 13.7331C10.84 10.8798 13.16 8.58643 16 8.58643C18.84 8.58643 21.16 10.8931 21.16 13.7464C21.16 16.5998 18.84 18.8931 16 18.8931ZM16 10.5864C14.2666 10.5864 12.84 11.9998 12.84 13.7464C12.84 15.4931 14.2533 16.9064 16 16.9064C17.7466 16.9064 19.16 15.4931 19.16 13.7464C19.16 11.9998 17.7333 10.5864 16 10.5864Z"
-                      fill="white" />
-                    <path
-                      d="M16.0001 30.3465C14.0268 30.3465 12.0401 29.5998 10.4934 28.1198C6.56011 24.3332 2.21345 18.2932 3.85345 11.1065C5.33345 4.5865 11.0268 1.6665 16.0001 1.6665C16.0001 1.6665 16.0001 1.6665 16.0134 1.6665C20.9868 1.6665 26.6801 4.5865 28.1601 11.1198C29.7868 18.3065 25.4401 24.3332 21.5068 28.1198C19.9601 29.5998 17.9734 30.3465 16.0001 30.3465ZM16.0001 3.6665C12.1201 3.6665 7.13345 5.73317 5.81345 11.5465C4.37345 17.8265 8.32011 23.2398 11.8934 26.6665C14.2001 28.8932 17.8134 28.8932 20.1201 26.6665C23.6801 23.2398 27.6268 17.8265 26.2134 11.5465C24.8801 5.73317 19.8801 3.6665 16.0001 3.6665Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>الرياض - حي المروج</h5>
-                  <p>
-                    ابحث عن العناوين وساعات العمل و المزيد لكل من مواقعنا
-                    والشركات التابعة لنا.
-                  </p>
-                </div>
-              </div>
-
-              <div class="contact-info-item">
-                <div class="icon-wrapper">
-                  <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M23.2666 30.5495C21.76 30.5495 20.1733 30.1895 18.5333 29.4961C16.9333 28.8161 15.32 27.8828 13.7466 26.7495C12.1866 25.6028 10.68 24.3228 9.25329 22.9228C7.83996 21.4961 6.55996 19.9895 5.42663 18.4428C4.27996 16.8428 3.35996 15.2428 2.70663 13.6961C2.01329 12.0428 1.66663 10.4428 1.66663 8.93615C1.66663 7.89615 1.85329 6.90948 2.21329 5.98948C2.58663 5.04281 3.18663 4.16281 3.99996 3.40281C5.02663 2.38948 6.19996 1.88281 7.45329 1.88281C7.97329 1.88281 8.50663 2.00281 8.95996 2.21615C9.47996 2.45615 9.91996 2.81615 10.24 3.29615L13.3333 7.65615C13.6133 8.04281 13.8266 8.41615 13.9733 8.78948C14.1466 9.18948 14.24 9.58948 14.24 9.97615C14.24 10.4828 14.0933 10.9761 13.8133 11.4428C13.6133 11.8028 13.3066 12.1895 12.92 12.5761L12.0133 13.5228C12.0266 13.5628 12.04 13.5895 12.0533 13.6161C12.2133 13.8961 12.5333 14.3761 13.1466 15.0961C13.8 15.8428 14.4133 16.5228 15.0266 17.1495C15.8133 17.9228 16.4666 18.5361 17.08 19.0428C17.84 19.6828 18.3333 20.0028 18.6266 20.1495L18.6 20.2161L19.5733 19.2561C19.9866 18.8428 20.3866 18.5361 20.7733 18.3361C21.5066 17.8828 22.44 17.8028 23.3733 18.1895C23.72 18.3361 24.0933 18.5361 24.4933 18.8161L28.92 21.9628C29.4133 22.2961 29.7733 22.7228 29.9866 23.2295C30.1866 23.7361 30.28 24.2028 30.28 24.6695C30.28 25.3095 30.1333 25.9495 29.8533 26.5495C29.5733 27.1495 29.2266 27.6695 28.7866 28.1495C28.0266 28.9895 27.2 29.5895 26.24 29.9761C25.32 30.3495 24.32 30.5495 23.2666 30.5495ZM7.45329 3.88281C6.71996 3.88281 6.03996 4.20281 5.38663 4.84281C4.77329 5.41615 4.34663 6.04281 4.07996 6.72281C3.79996 7.41615 3.66663 8.14948 3.66663 8.93615C3.66663 10.1761 3.95996 11.5228 4.54663 12.9095C5.14663 14.3228 5.98663 15.7895 7.05329 17.2561C8.11996 18.7228 9.33329 20.1495 10.6666 21.4961C12 22.8161 13.44 24.0428 14.92 25.1228C16.36 26.1761 17.84 27.0295 19.3066 27.6428C21.5866 28.6161 23.72 28.8428 25.48 28.1095C26.16 27.8295 26.76 27.4028 27.3066 26.7895C27.6133 26.4561 27.8533 26.0961 28.0533 25.6695C28.2133 25.3361 28.2933 24.9895 28.2933 24.6428C28.2933 24.4295 28.2533 24.2161 28.1466 23.9761C28.1066 23.8961 28.0266 23.7495 27.7733 23.5761L23.3466 20.4295C23.08 20.2428 22.84 20.1095 22.6133 20.0161C22.32 19.8961 22.2 19.7761 21.7466 20.0561C21.48 20.1895 21.24 20.3895 20.9733 20.6561L19.96 21.6561C19.44 22.1628 18.64 22.2828 18.0266 22.0561L17.6666 21.8961C17.12 21.6028 16.48 21.1495 15.7733 20.5495C15.1333 20.0028 14.44 19.3628 13.6 18.5361C12.9466 17.8695 12.2933 17.1628 11.6133 16.3761C10.9866 15.6428 10.5333 15.0161 10.2533 14.4961L10.0933 14.0961C10.0133 13.7895 9.98663 13.6161 9.98663 13.4295C9.98663 12.9495 10.16 12.5228 10.4933 12.1895L11.4933 11.1495C11.76 10.8828 11.96 10.6295 12.0933 10.4028C12.2 10.2295 12.24 10.0828 12.24 9.94948C12.24 9.84281 12.2 9.68281 12.1333 9.52281C12.04 9.30948 11.8933 9.06948 11.7066 8.81615L8.61329 4.44281C8.47996 4.25615 8.31996 4.12281 8.11996 4.02948C7.90663 3.93615 7.67996 3.88281 7.45329 3.88281ZM18.6 20.2295L18.3866 21.1361L18.7466 20.2028C18.68 20.1895 18.6266 20.2028 18.6 20.2295Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>0112777900 / 0552300321</h5>
-                  <p>
-                    ابحث عن العناوين وساعات العمل و المزيد لكل من مواقعنا
-                    والشركات التابعة لنا.
-                  </p>
-                </div>
-              </div>
-
-              <div class="contact-info-item">
-                <div class="icon-wrapper">
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M22.6666 28.3332H9.33329C4.46663 28.3332 1.66663 25.5332 1.66663 20.6665V11.3332C1.66663 6.4665 4.46663 3.6665 9.33329 3.6665H22.6666C27.5333 3.6665 30.3333 6.4665 30.3333 11.3332V20.6665C30.3333 25.5332 27.5333 28.3332 22.6666 28.3332ZM9.33329 5.6665C5.51996 5.6665 3.66663 7.51984 3.66663 11.3332V20.6665C3.66663 24.4798 5.51996 26.3332 9.33329 26.3332H22.6666C26.48 26.3332 28.3333 24.4798 28.3333 20.6665V11.3332C28.3333 7.51984 26.48 5.6665 22.6666 5.6665H9.33329Z"
-                      fill="white" />
-                    <path
-                      d="M15.9997 17.16C14.8797 17.16 13.7464 16.8133 12.8797 16.1066L8.70641 12.7733C8.27974 12.4266 8.19975 11.8 8.54642 11.3733C8.89308 10.9466 9.51975 10.8666 9.94642 11.2133L14.1197 14.5466C15.1331 15.36 16.8531 15.36 17.8664 14.5466L22.0397 11.2133C22.4664 10.8666 23.1064 10.9333 23.4397 11.3733C23.7864 11.8 23.7198 12.44 23.2798 12.7733L19.1064 16.1066C18.2531 16.8133 17.1197 17.16 15.9997 17.16Z"
-                      fill="white" />
-                  </svg>
-                </div>
-                <div class="info-text">
-                  <h5>info@a-ca.sa</h5>
-                  <p>
-                    قبل أن تترك لنا خطًا أو تلتقط الهاتف،قد تجد إجابة في قائمة
-                    الأسئلة الشائعة لدينا.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  </section>
-
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row justify-content-between align-items-center" style="width: 127%;">
-        <div class="col-lg-10 text-center">
-          <h1 class="footer-title mb-4">
-            امنح هدية الصحة: ​​تبرع الي مبتوري الاطراف
+  <footer class="footer py-5 bg-light-purple position-relative">
+    <div class="container position-relative">
+      <div class="row justify-content-center align-items-center">
+        <!-- Content Column -->
+        <div class="col-12 col-lg-10 text-center footer-content mb-4  ">
+          <h1 class="footer-title text-primary-custom font-amiri fs-3 fs-lg-2 fw-normal mb-3 mb-lg-4">
+            امنح هدية الصحة: تبرع لمبتوري الأطراف
           </h1>
-          <p class="footer-description mb-4">
-            تحويل الحياة: دعم الصحة النفسية <br />
-            لمبتوري الاطراف مع تبرعك
+
+          <!-- Mobile Logo   -->
+          <div class="d-block d-lg-none mobile-logo-wrapper mb-4">
+            <img src="images/foot-left.png" alt="Footer Logo" class="mobile-logo img-fluid mx-auto" loading="lazy" />
+          </div>
+
+          <p class="footer-description text-dark font-almarai fs-4 fs-lg-1 fw-bold mb-3 mb-lg-4">
+            <span class="d-block">تحويل الحياة: دعم الصحة النفسية</span>
+            <span class="d-block">لمبتوري الأطراف مع تبرعك</span>
           </p>
-          <button class="btn btn-footer mb-4">تبرع الأن</button>
+          <button
+            class="btn btn-donate bg-primary-custom text-white px-4 px-lg-5 py-2 py-lg-3 rounded-2 fw-bold fs-5 mb-0">
+            تبرع الآن
+          </button>
         </div>
-        <div class="col-lg-2">
-          <img src="images/foot-left.png" alt="Footer Logo" class="footer-logo" loading="lazy" />
+
+        <!-- Desktop Logo Column -->
+        <div class="col-lg-2 d-none d-lg-block footer-logo-wrapper">
+          <img src="images/foot-left.png" alt="Footer Logo" class="footer-logo img-fluid" loading="lazy" />
         </div>
       </div>
     </div>
   </footer>
 
-  <div class="footer-bottom">
+  <footer class="footer-bottom bg-dark text-white py-5">
     <div class="container">
-      <div class="row" dir="rtl">
+      <div class="row g-1">
         <!-- First Column - Logo and Info -->
-        <div class="col-lg-4 col-md-6">
-          <img src="images/btor-footer.png" alt="Btor Logo" class="btor-logo" loading="lazy" />
-          <p class="company-info">
+        <div class="col-lg-3 col-md-4 text-center text-md-start">
+          <img src="images/btor-footer.png" alt="Btor Logo" class="btor-logo img-fluid mb-4 w-75" loading="lazy" />
+          <p class="company-info mb-4">
             جمعية رسمية صحية متخصصة بمبتوري الأطراف وتقدم لهم خدمات تساعدهم على مواجهة التحديات والصعوبات وتساهم في
-            تحسين جودة
-            حياتهم، وتمكين قدراتهم الذاتية في خدمة أنفسهم وأسرهم دون الحاجة لمساعة الآخرين </p>
-          <div class="social-links">
-            <a href="#" aria-label=""><svg width="22" height="21" viewBox="0 0 22 21" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+            تحسين جودة حياتهم، وتمكين قدراتهم الذاتية في خدمة أنفسهم وأسرهم دون الحاجة لمساعة الآخرين
+          </p>
+          <div class="social-links d-flex justify-content-center justify-content-md-start gap-1 mb-4">
+            <a href="#"
+              class="d-flex align-items-center justify-content-center rounded-circle bg-opacity-10 text-white text-decoration-none"
+              style="width: 40px; height: 40px;">
+              <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.2904 0.854004C5.5962 0.854004 0.979126 5.17102 0.979126 10.4952C0.979126 14.442 3.52013 17.8337 7.1521 19.3272C7.12448 18.6558 7.1475 17.8466 7.33163 17.1149C7.52957 16.3315 8.65737 11.8596 8.65737 11.8596C8.65737 11.8596 8.32593 11.2441 8.32593 10.3359C8.32593 8.90697 9.20976 7.83956 10.3145 7.83956C11.2536 7.83956 11.7047 8.49808 11.7047 9.28573C11.7047 10.1681 11.1017 11.4851 10.7933 12.7075C10.5355 13.7319 11.3411 14.5626 12.4228 14.5626C14.3746 14.5626 15.6911 12.2168 15.6911 9.43638C15.6911 7.32306 14.1675 5.74346 11.4009 5.74346C8.2753 5.74346 6.32351 7.92564 6.32351 10.3618C6.32351 11.2011 6.5905 11.795 7.0048 12.2513C7.19353 12.4622 7.22115 12.5482 7.1521 12.7893C7.10146 12.9657 6.99099 13.3918 6.94035 13.564C6.8713 13.8093 6.65955 13.8954 6.42478 13.805C4.98396 13.2541 4.31189 11.7821 4.31189 10.1207C4.31189 7.38332 6.78384 4.09929 11.6817 4.09929C15.6175 4.09929 18.2091 6.76353 18.2091 9.62145C18.2091 13.4048 15.9581 16.2282 12.6438 16.2282C11.5298 16.2282 10.4849 15.6644 10.1258 15.0274C10.1258 15.0274 9.52738 17.2483 9.39849 17.6787C9.18214 18.4233 8.75403 19.1636 8.36276 19.7447C9.3119 20.0065 10.2962 20.1398 11.2858 20.1407C16.9801 20.1407 21.5971 15.8237 21.5971 10.4995C21.5971 5.17532 16.9847 0.854004 11.2904 0.854004Z"
                   fill="white" />
               </svg>
+
             </a>
-            <a href="#" aria-label="Twitter"><svg width="22" height="21" viewBox="0 0 22 21" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+            <a href="#"
+              class="d-flex align-items-center justify-content-center rounded-circle bg-opacity-10 text-white text-decoration-none"
+              style="width: 40px; height: 40px;">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M11.2904 0.854004C5.5962 0.854004 0.979126 5.17102 0.979126 10.4952C0.979126 14.442 3.52013 17.8337 7.1521 19.3272C7.12448 18.6558 7.1475 17.8466 7.33163 17.1149C7.52957 16.3315 8.65737 11.8596 8.65737 11.8596C8.65737 11.8596 8.32593 11.2441 8.32593 10.3359C8.32593 8.90697 9.20976 7.83956 10.3145 7.83956C11.2536 7.83956 11.7047 8.49808 11.7047 9.28573C11.7047 10.1681 11.1017 11.4851 10.7933 12.7075C10.5355 13.7319 11.3411 14.5626 12.4228 14.5626C14.3746 14.5626 15.6911 12.2168 15.6911 9.43638C15.6911 7.32306 14.1675 5.74346 11.4009 5.74346C8.2753 5.74346 6.32351 7.92564 6.32351 10.3618C6.32351 11.2011 6.5905 11.795 7.0048 12.2513C7.19353 12.4622 7.22115 12.5482 7.1521 12.7893C7.10146 12.9657 6.99099 13.3918 6.94035 13.564C6.8713 13.8093 6.65955 13.8954 6.42478 13.805C4.98396 13.2541 4.31189 11.7821 4.31189 10.1207C4.31189 7.38332 6.78384 4.09929 11.6817 4.09929C15.6175 4.09929 18.2091 6.76353 18.2091 9.62145C18.2091 13.4048 15.9581 16.2282 12.6438 16.2282C11.5298 16.2282 10.4849 15.6644 10.1258 15.0274C10.1258 15.0274 9.52738 17.2483 9.39849 17.6787C9.18214 18.4233 8.75403 19.1636 8.36276 19.7447C9.3119 20.0065 10.2962 20.1398 11.2858 20.1407C16.9801 20.1407 21.5971 15.8237 21.5971 10.4995C21.5971 5.17532 16.9847 0.854004 11.2904 0.854004Z"
+                  d="M22.2383 11.6385C21.8983 5.83847 16.6283 1.36848 10.5583 2.36848C6.37834 3.05848 3.02835 6.44846 2.37835 10.6285C1.99835 13.0485 2.49837 15.3385 3.58837 17.2285L2.69836 20.5385C2.49836 21.2885 3.18834 21.9685 3.92834 21.7585L7.18835 20.8585C8.66835 21.7285 10.3983 22.2285 12.2483 22.2285C17.8883 22.2285 22.5683 17.2585 22.2383 11.6385ZM17.1384 15.9485C17.0484 16.1285 16.9383 16.2985 16.7983 16.4585C16.5483 16.7285 16.2783 16.9285 15.9783 17.0485C15.6783 17.1785 15.3483 17.2385 14.9983 17.2385C14.4883 17.2385 13.9383 17.1185 13.3683 16.8685C12.7883 16.6185 12.2184 16.2885 11.6484 15.8785C11.0684 15.4585 10.5284 14.9885 10.0084 14.4785C9.48835 13.9585 9.02833 13.4084 8.60833 12.8384C8.19833 12.2684 7.86835 11.6985 7.62835 11.1285C7.38835 10.5585 7.26836 10.0085 7.26836 9.48847C7.26836 9.14847 7.32836 8.81847 7.44836 8.51847C7.56836 8.20847 7.75837 7.92847 8.02837 7.67847C8.34837 7.35847 8.69835 7.20847 9.06835 7.20847C9.20835 7.20847 9.34832 7.23847 9.47832 7.29847C9.60833 7.35847 9.72835 7.44847 9.81835 7.57847L10.9783 9.21845C11.0683 9.34845 11.1383 9.45846 11.1783 9.56846C11.2283 9.67846 11.2483 9.77846 11.2483 9.87846C11.2483 9.99846 11.2084 10.1185 11.1384 10.2385C11.0684 10.3585 10.9783 10.4785 10.8583 10.5985L10.4783 10.9985C10.4183 11.0585 10.3984 11.1185 10.3984 11.1985C10.3984 11.2385 10.4083 11.2785 10.4183 11.3185C10.4383 11.3585 10.4484 11.3885 10.4584 11.4185C10.5484 11.5885 10.7083 11.7984 10.9283 12.0584C11.1583 12.3184 11.3984 12.5885 11.6584 12.8485C11.9284 13.1185 12.1884 13.3584 12.4584 13.5884C12.7184 13.8084 12.9383 13.9585 13.1083 14.0485C13.1383 14.0585 13.1684 14.0784 13.1984 14.0884C13.2384 14.1084 13.2784 14.1085 13.3284 14.1085C13.4184 14.1085 13.4784 14.0785 13.5384 14.0185L13.9183 13.6385C14.0483 13.5085 14.1684 13.4185 14.2784 13.3585C14.3984 13.2885 14.5084 13.2485 14.6384 13.2485C14.7384 13.2485 14.8384 13.2685 14.9484 13.3185C15.0584 13.3685 15.1783 13.4285 15.2983 13.5185L16.9584 14.6985C17.0884 14.7885 17.1783 14.8985 17.2383 15.0185C17.2883 15.1485 17.3184 15.2685 17.3184 15.4085C17.2584 15.5785 17.2184 15.7685 17.1384 15.9485Z"
                   fill="white" />
               </svg>
+
             </a>
-            <a href="#" aria-label="Instagram"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+            <a href="#"
+              class="d-flex align-items-center justify-content-center rounded-circle bg-opacity-10 text-white text-decoration-none"
+              style="width: 40px; height: 40px;">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M22.2584 16.4185C22.2584 20.0585 20.0884 22.2285 16.4484 22.2285H15.2584C14.7084 22.2285 14.2584 21.7785 14.2584 21.2285V15.4585C14.2584 15.1885 14.4784 14.9585 14.7484 14.9585L16.5084 14.9285C16.6484 14.9185 16.7684 14.8185 16.7984 14.6785L17.1484 12.7685C17.1784 12.5885 17.0384 12.4185 16.8484 12.4185L14.7184 12.4485C14.4384 12.4485 14.2184 12.2285 14.2084 11.9585L14.1684 9.50851C14.1684 9.34851 14.2984 9.20853 14.4684 9.20853L16.8684 9.16852C17.0384 9.16852 17.1684 9.03853 17.1684 8.86853L17.1284 6.46851C17.1284 6.29851 16.9984 6.16852 16.8284 6.16852L14.1284 6.20853C12.4684 6.23853 11.1484 7.59851 11.1784 9.25851L11.2284 12.0085C11.2384 12.2885 11.0184 12.5085 10.7384 12.5185L9.53842 12.5385C9.36842 12.5385 9.23843 12.6685 9.23843 12.8385L9.26843 14.7385C9.26843 14.9085 9.39842 15.0385 9.56842 15.0385L10.7684 15.0185C11.0484 15.0185 11.2684 15.2385 11.2784 15.5085L11.3684 21.2085C11.3784 21.7685 10.9284 22.2285 10.3684 22.2285H8.06842C4.42842 22.2285 2.25842 20.0585 2.25842 16.4085V8.03851C2.25842 4.39851 4.42842 2.22852 8.06842 2.22852H16.4484C20.0884 2.22852 22.2584 4.39851 22.2584 8.03851V16.4185Z"
                   fill="white" />
               </svg>
+
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="#"
+              class="d-flex align-items-center justify-content-center rounded-circle bg-opacity-10 text-white text-decoration-none"
+              style="width: 40px; height: 40px;">
               <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.7547 3.64812C18.8825 3.65149 19.9632 4.10102 20.7607 4.89854C21.5583 5.69605 22.0078 6.77675 22.0112 7.9046V16.4167C22.0078 17.5445 21.5583 18.6252 20.7607 19.4227C19.9632 20.2202 18.8825 20.6698 17.7547 20.6731H9.24262C8.11476 20.6698 7.03407 20.2202 6.23655 19.4227C5.43903 18.6252 4.9895 17.5445 4.98613 16.4167V7.9046C4.9895 6.77675 5.43903 5.69605 6.23655 4.89854C7.03407 4.10102 8.11476 3.65149 9.24262 3.64812H17.7547ZM17.7547 1.9458H9.24262C5.96521 1.9458 3.28381 4.62719 3.28381 7.9046V16.4167C3.28381 19.6941 5.96521 22.3755 9.24262 22.3755H17.7547C21.0321 22.3755 23.7135 19.6941 23.7135 16.4167V7.9046C23.7135 4.62719 21.0321 1.9458 17.7547 1.9458Z"
@@ -796,55 +898,54 @@
         </div>
 
         <!-- Second Column - Quick Links -->
-        <div class="col-lg-2 col-md-6">
-          <h3 class="menu-title">المميزات</h3>
-          <ul class="menu-list">
-            <li><a href="#" id="hero">عن بتور</a></li>
-            <li><a href="#" id="programs">البرامج</a></li>
-            <li><a href="#" id="services">العناية بالاطراف الصناعية</a></li>
-            <li><a href="#" id="contact">المركز الاعلامي</a></li>
+        <div class="col-lg-3 col-md-3 text-center text-md-start">
+          <h3 class="menu-title mb-3">المميزات</h3>
+          <ul class="menu-list list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">عن بتور</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">البرامج</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">العناية بالاطراف الصناعية</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">المركز الاعلامي</a></li>
           </ul>
         </div>
 
         <!-- Third Column - Programs -->
-        <div class="col-lg-3 col-md-6">
-          <h3 class="menu-title">عن الشركة</h3>
-          <ul class="menu-list">
-            <li><a href="#" id="articles">الاسئلة الشائعة</a></li>
-            <li><a href="#" id="who-we-are">من نحن</a></li>
-            <li><a href="#" id="contact">تواصل معنا</a></li>
+        <div class="col-lg-3 col-md-3 text-center text-md-start">
+          <h3 class="menu-title mb-3">عن الشركة</h3>
+          <ul class="menu-list list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">الاسئلة الشائعة</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">من نحن</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">تواصل معنا</a></li>
           </ul>
         </div>
 
         <!-- Fourth Column - Support -->
-        <div class="col-lg-3 col-md-6">
-          <h3 class="menu-title" id="contact">تواصل معنا</h3>
-          <ul class="menu-list">
-            <li><a href="#" class="special-list">العنوان</a></li>
-            <li><a href="#">الرياض - حي المروج</a></li>
-            <li><a href="#" class="special-list">البريد الالكتروني</a></li>
-            <li><a href="#">APP@Gmail.com</a></li>
-            <li><a href="#" class="special-list">للاستشارات</a></li>
-            <li><a href="#">(+966) 8896-2220</a></li>
+        <div class="col-lg-3 col-md-2 text-center text-md-start">
+          <h3 class="menu-title mb-3">تواصل معنا</h3>
+          <ul class="menu-list list-unstyled">
+            <li class="mb-2"><span class="text-white-50">العنوان</span></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">الرياض - حي المروج</a></li>
+            <li class="mb-2"><span class="text-white-50">البريد الالكتروني</span></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">APP@Gmail.com</a></li>
+            <li class="mb-2"><span class="text-white-50">للاستشارات</span></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">(+966) 8896-2220</a></li>
           </ul>
         </div>
       </div>
 
       <!-- Copyright -->
-      <div class="row" dir="rtl">
+      <div class="row mt-5 pt-3 border-top border-white-10" dir="ltr">
         <div class="col-12">
-          <div class="copyright">
-            <p dir="ltr">© 2024 APP. جميع الحقوق محفوظة</p>
-            <p>
-              <span class="ms-3">سياسة الخصوصية</span>
-              <span>الشروط والأحكام</span>
-            </p>
+          <div class="copyright d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0 order-md-2">© 2024 APP. جميع الحقوق محفوظة</p>
+            <div class="order-md-1">
+              <a href="#" class="text-white-50 text-decoration-none ms-3">سياسة الخصوصية</a>
+              <a href="#" class="text-white-50 text-decoration-none">الشروط والأحكام</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
