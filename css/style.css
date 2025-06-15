@@ -58,7 +58,7 @@ html {
 
 img,
 svg {
-  margin-right: 14px;
+  /* margin-right: 14px; */
   cursor: pointer;
 }
 
