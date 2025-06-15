@@ -89,7 +89,7 @@ svg {
 }
 
 .text-primary-custom {
-  color: #897ae3 !important;
+  color: rgba(137, 122, 227, 1) !important;
 }
 
 .donate-btn-desktop {
@@ -270,8 +270,8 @@ svg {
 /* Logo */
 .footer-logo-wrapper {
   position: absolute;
-  left: 0;
-  bottom: -45px;
+  left: 40px;
+  /* bottom: -45px; */
   width: auto;
 }
 
@@ -279,7 +279,7 @@ svg {
   max-width: 190px;
   position: relative;
   bottom: 0px;
-  right: 118px;
+  right: 40px;
 }
 
 /* Button */
